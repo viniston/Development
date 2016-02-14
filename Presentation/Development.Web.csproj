@@ -205,7 +205,8 @@
     <Content Include="bower_components\assets\js\UtilityFramework\jquery.qtip.min.js" />
     <None Include="cities.json" />
     <Content Include="GenerateCaptcha.aspx" />
-    <Content Include="img\download.jpg" />
+    <Content Include="img\GALE_LOGO1.jpg" />
+    <Content Include="img\GALE_LOGO.png" />
     <Content Include="LogFile.txt" />
     <Content Include="Logs\1.txt" />
     <Content Include="Global.asax" />

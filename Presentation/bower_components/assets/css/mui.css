@@ -20928,7 +20928,7 @@ body.UR
     overflow: hidden;
 }
 
-.userRegistration
+.windRegistration
 {
     margin: auto !important;
     padding: 0px !important;
@@ -20938,7 +20938,7 @@ body.UR
     width: 100%;
 }
 
-    .userRegistration .contentBlock
+    .windRegistration .contentBlock
     {
         display: block !important;
         height: 700px !important;
@@ -20948,13 +20948,13 @@ body.UR
         position: relative !important;
     }
 
-    .userRegistration .bsiLogo > img
+    .windRegistration .bsiLogo > img
     {
         height: 40px;
         margin: 10px !important;
     }
 
-    .userRegistration .box
+    .windRegistration .box
     {
         border: 2px solid #ddd;
         margin-bottom: 40px !important;
@@ -20967,7 +20967,7 @@ body.UR
         background-color: #ffffff;
     }
 
-        .userRegistration .box .box-header
+        .windRegistration .box .box-header
         {
             margin: 0px !important;
             color: #888;
@@ -20976,23 +20976,23 @@ body.UR
             position: relative !important;
         }
 
-            .userRegistration .box .box-header h1,
-            .userRegistration .box .box-header h2,
-            .userRegistration .box .box-header h3,
-            .userRegistration .box .box-header h4,
-            .userRegistration .box .box-header h5
+            .windRegistration .box .box-header h1,
+            .windRegistration .box .box-header h2,
+            .windRegistration .box .box-header h3,
+            .windRegistration .box .box-header h4,
+            .windRegistration .box .box-header h5
             {
                 margin: 0px !important;
             }
 
-            .userRegistration .box .box-header p
+            .windRegistration .box .box-header p
             {
                 font-size: 12px !important;
                 font-style: italic;
                 margin: 0px !important;
             }
 
-            .userRegistration .box .box-header div.information
+            .windRegistration .box .box-header div.information
             {
                 display: inline-block !important;
                 position: absolute !important;
@@ -21001,24 +21001,24 @@ body.UR
                 opacity: 0.6;
             }
 
-                .userRegistration .box .box-header div.information > span
+                .windRegistration .box .box-header div.information > span
                 {
                     color: #c83025 !important;
                     font-size: 10px !important;
                     font-style: italic;
                 }
 
-                    .userRegistration .box .box-header div.information > span > i
+                    .windRegistration .box .box-header div.information > span > i
                     {
                         font-size: 12px !important;
                     }
 
-        .userRegistration .box .box-content
+        .windRegistration .box .box-content
         {
             display: inline-block !important;
         }
 
-            .userRegistration .box .box-content .saving
+            .windRegistration .box .box-content .saving
             {
                 z-index: 99999;
                 position: fixed;
@@ -21031,7 +21031,7 @@ body.UR
                 background-color: rgba(255, 255, 255, 0.8);
             }
 
-                .userRegistration .box .box-content .saving .InProgress
+                .windRegistration .box .box-content .saving .InProgress
                 {
                     position: absolute;
                     top: 50%;
@@ -21040,7 +21040,7 @@ body.UR
                     vertical-align: middle;
                 }
 
-                    .userRegistration .box .box-content .saving .InProgress span
+                    .windRegistration .box .box-content .saving .InProgress span
                     {
                         display: inline-block;
                         font-size: 18px;
@@ -21049,7 +21049,7 @@ body.UR
                         margin-left: 5px;
                     }
 
-            .userRegistration .box .box-content .box-content-margin > form
+            .windRegistration .box .box-content .box-content-margin > form
             {
                 border: 1px solid #cccccc !important;
                 padding-bottom: 30px;
@@ -21058,14 +21058,14 @@ body.UR
                 box-shadow: 0px 0px 5px rgba(1, 1, 1, 0.3);
             }
 
-                .userRegistration .box .box-content .box-content-margin > form .span12
+                .windRegistration .box .box-content .box-content-margin > form .span12
                 {
                     width: 1084px;
                     margin: 0px;
                     padding: 20px 20px 0px 20px;
                 }
 
-                    .userRegistration .box .box-content .box-content-margin > form .span12 .blockTitle
+                    .windRegistration .box .box-content .box-content-margin > form .span12 .blockTitle
                     {
                         margin: 0px !important;
                         margin-bottom: 10px !important;
@@ -21074,14 +21074,14 @@ body.UR
                         color: #CCC;
                     }
 
-                .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .InProgress,
-                .userRegistration .box .box-content .box-content-margin > form #staticControls .InProgress
+                .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .InProgress,
+                .windRegistration .box .box-content .box-content-margin > form #staticControls .InProgress
                 {
                     text-align: center;
                 }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .InProgress span,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .InProgress span
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .InProgress span,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .InProgress span
                     {
                         display: inline-block;
                         font-size: 18px;
@@ -21090,16 +21090,16 @@ body.UR
                         margin-left: 5px;
                     }
 
-                .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group,
-                .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group
+                .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group,
+                .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group
                 {
                     width: 355px;
                     margin: 0px !important;
                     position: relative !important;
                 }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .info > span,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .info > span
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .info > span,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .info > span
                     {
                         display: inline-block !important;
                         font-size: 9px !important;
@@ -21111,34 +21111,34 @@ body.UR
                         right: 35px;
                     }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls i.icon-warning-sign,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls i.icon-warning-sign
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls i.icon-warning-sign,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls i.icon-warning-sign
                     {
                         margin-left: -20px;
                         margin-right: 5px;
                     }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls input.longbox,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls input.longbox
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls input.longbox,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls input.longbox
                     {
                         width: 310px;
                     }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls input.firstShortbox,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls input.firstShortbox
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls input.firstShortbox,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls input.firstShortbox
                     {
                         width: 145px;
                     }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls input.secondShortbox,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls input.secondShortbox
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls input.secondShortbox,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls input.secondShortbox
                     {
                         width: 145px;
                         margin-left: 3px;
                     }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls textarea,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls textarea
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls textarea,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls textarea
                     {
                         width: 310px;
                         max-width: 310px;
@@ -21148,39 +21148,39 @@ body.UR
                         max-height: 50px;
                     }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls select,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls select
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls select,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls select
                     {
                         width: 324px;
                     }
 
-                    .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls .btn-group,
-                    .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls .btn-group
+                    .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls .btn-group,
+                    .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls .btn-group
                     {
                         height: 30px;
                     }
 
-                        .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls .btn-group .tbxDropdown,
-                        .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls .btn-group .tbxDropdown
+                        .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls .btn-group .tbxDropdown,
+                        .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls .btn-group .tbxDropdown
                         {
                             width: 324px !important;
                         }
 
-                        .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls .btn-group ul.multiselect-container,
-                        .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls .btn-group ul.multiselect-container
+                        .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls .btn-group ul.multiselect-container,
+                        .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls .btn-group ul.multiselect-container
                         {
                             width: 322px !important;
                         }
 
-                            .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls .btn-group ul.multiselect-container .input-group .multiselect-search,
-                            .userRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls .btn-group ul.multiselect-container .input-group .multiselect-search
+                            .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .control-group .controls .btn-group ul.multiselect-container .input-group .multiselect-search,
+                            .windRegistration .box .box-content .box-content-margin > form #staticControls .control-group .controls .btn-group ul.multiselect-container .input-group .multiselect-search
                             {
                                 width: 298px !important;
                                 margin-left: 5px !important;
                             }
 
-                .userRegistration .box .box-content .box-content-margin > form #dynamiccontrols .symbol,
-                .userRegistration .box .box-content .box-content-margin > form #staticControls .symbol
+                .windRegistration .box .box-content .box-content-margin > form #dynamiccontrols .symbol,
+                .windRegistration .box .box-content .box-content-margin > form #staticControls .symbol
                 {
                     display: block !important;
                     position: fixed !important;
@@ -21203,7 +21203,7 @@ body.UR
                     vertical-align: middle;
                 }
 
-        .userRegistration .box .box-footer
+        .windRegistration .box .box-footer
         {
             display: inline-block !important;
             background: none !important;
@@ -21213,18 +21213,18 @@ body.UR
             height: 50px !important;
         }
 
-            .userRegistration .box .box-footer .buttongroup
+            .windRegistration .box .box-footer .buttongroup
             {
                 display: inline-block !important;
                 padding-top: 15px;
             }
 
-                .userRegistration .box .box-footer .buttongroup .btn
+                .windRegistration .box .box-footer .buttongroup .btn
                 {
                     margin-right: 5px !important;
                 }
 
-                    .userRegistration .box .box-footer .buttongroup .btn:last-child
+                    .windRegistration .box .box-footer .buttongroup .btn:last-child
                     {
                         margin: 0px !important;
                     }
@@ -41529,8 +41529,9 @@ ul#entity_foldersTreeHolder.treeHolderwithFolder
 /*#region Table scroll*/
 .historical-wrapper
 {
-    min-height: 400px;
+    min-height: 150px !important;
     overflow: auto;
+    height: inherit;
 }
 /*#endregion*/
 
@@ -41545,6 +41546,7 @@ ul#entity_foldersTreeHolder.treeHolderwithFolder
     cursor: text;
     font-weight: bolder;
     color: red !important;
+    font-size: medium !important;
 }
 
 .black-textfield
@@ -41556,6 +41558,7 @@ ul#entity_foldersTreeHolder.treeHolderwithFolder
     cursor: text;
     font-weight: bolder;
     color: black !important;
+    font-size: medium !important;
 }
 
 .purple-textfield
@@ -41567,6 +41570,7 @@ ul#entity_foldersTreeHolder.treeHolderwithFolder
     outline: none;
     cursor: text;
     font-weight: bolder;
+    font-size: medium !important;
 }
 /*#endregion*/
 

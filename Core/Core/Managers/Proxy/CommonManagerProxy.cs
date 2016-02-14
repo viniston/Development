@@ -92,6 +92,15 @@ namespace Development.Core.Managers.Proxy
         }
         #endregion
 
+        #region GetPredictedSpeed
+
+        public int GetPredictedSpeed(string stationCode)
+        {
+            return CommonManager.Instance.GetPredictedSpeed(this, stationCode);
+        }
+
+        #endregion
+
         #endregion
 
 

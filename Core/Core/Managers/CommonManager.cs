@@ -180,6 +180,33 @@ namespace Development.Core.Managers
 
         #endregion
 
+        #region GetPredictedSpeed
+        public int GetPredictedSpeed(CommonManagerProxy proxy, string stationCode)
+        {
+            int predictedSpeed = 0;
+            try
+            {
+                using (ITransaction tx = proxy.DevelopmentManager.GetTransaction())
+                {
+                    predictedSpeed = Convert.ToInt32(tx.PersistenceManager.UserRepository.Query<WindStationsDao>().Where(a => a.StationID == stationCode).Select(a => a.PredictedSpeed).FirstOrDefault());
+                    tx.Commit();
+                }
+            }
+
+            catch (DBConcurrencyException ex)
+            {
+            }
+            catch (Exception ex)
+            {
+                LogError(proxy, ex);
+            }
+
+            return predictedSpeed;
+
+        }
+
+        #endregion
+
         #region GetHistoricalData
         public IList<WindSpeedDao> GetHistoricalData(CommonManagerProxy proxy, int days)
         {
@@ -192,7 +219,7 @@ namespace Development.Core.Managers
                     string dateInString = DateTime.Now.ToString("yyyy-MM-dd");
                     DateTime startDate = DateTime.Parse(dateInString);
                     DateTime expiryDate = startDate.AddDays(-days);
-                    iwind = tx.PersistenceManager.UserRepository.Query<WindSpeedDao>().Where(a => a.Date >= expiryDate).OrderBy(c => c.Date).Select(a => new WindSpeedDao { Id = a.Id, State = a.State, StationCode = a.StationCode, City = a.City, Variance = a.Variance, ActualSpeed = a.ActualSpeed, PredictedSpeed = a.PredictedSpeed, DesiredDate = a.Date != null ? a.Date.ToString("MMM dd,yyyy") : "" }).ToList<WindSpeedDao>();
+                    iwind = tx.PersistenceManager.UserRepository.Query<WindSpeedDao>().Where(a => a.Date >= expiryDate).OrderBy(c => c.Date).Select(a => new WindSpeedDao { Id = a.Id, State = a.State, StationCode = a.StationCode, City = a.City, Variance = a.Variance, ActualSpeed = a.ActualSpeed, Date = a.Date, PredictedSpeed = a.PredictedSpeed, DesiredDate = a.Date != null ? a.Date.ToString("MMMM dd,yyyy") : "" }).ToList<WindSpeedDao>();
                     tx.Commit();
                 }
 

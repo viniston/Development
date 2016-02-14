@@ -86,6 +86,27 @@ namespace Development.Web.Controllers
             return result;
         }
 
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("GetPredictedSpeed")]
+        public ServiceResponse GetPredictedSpeed([FromBody]JObject jobj)
+        {
+            result = new ServiceResponse();
+            try
+            {
+                Guid systemSession = DevelopmentManagerFactory.GetSystemSession();
+                IDevelopmentManager developmentManager = DevelopmentManagerFactory.GetDevelopmentManager(systemSession);
+                result.StatusCode = (int)HttpStatusCode.OK;
+                result.Response = developmentManager.CommonManager.GetPredictedSpeed((string)jobj["StationId"]);
+            }
+            catch
+            {
+                result.StatusCode = (int)HttpStatusCode.MethodNotAllowed;
+                result.Response = 0;
+            }
+            return result;
+        }
+
 
         [AllowAnonymous]
         [HttpGet]
@@ -98,7 +119,7 @@ namespace Development.Web.Controllers
                 Guid systemSession = DevelopmentManagerFactory.GetSystemSession();
                 IDevelopmentManager developmentManager = DevelopmentManagerFactory.GetDevelopmentManager(systemSession);
                 result.StatusCode = (int)HttpStatusCode.OK;
-                result.Response = developmentManager.CommonManager.GetHistoricalData(days); ;
+                result.Response = developmentManager.CommonManager.GetHistoricalData(days);
             }
             catch
             {

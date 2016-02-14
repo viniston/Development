@@ -22,7 +22,7 @@ namespace Development.Core.Interface.Managers
 
         #endregion
 
-        #region TestMethod
+        #region Methods
 
         string TestMethod();
         bool SaveError(ErrorDao _error);
@@ -30,6 +30,9 @@ namespace Development.Core.Interface.Managers
         IList<WindStationsDao> GetStations();
         IList<WindSpeedDao> GetHistoricalData(int days);
         int CreateNewReading(WindSpeedDao speedDao);
+        int GetPredictedSpeed(string stationCode);
+
+
 
         #endregion
 
