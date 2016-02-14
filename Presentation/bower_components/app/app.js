@@ -41,7 +41,7 @@ $(document).ready(function () {
         // Main initialization entry point...
 
         initialize: function () {
-            this.hidehistory();
+            this.hidehistory(); //Hide history container since we are not loading data on page load
             this.initInputForm();
         },
 
@@ -82,7 +82,7 @@ $(document).ready(function () {
         // NOD.JS validation entry point...
 
         GetValidationList: function () {
-            var str = [['#select2-state', 'presence', 'Please select proper State'], ['#select2-city', 'presence', 'Please select proper City'], ['#entrydate', 'presence', 'Cannot be empty'], ['#predictedspeed', 'presence', 'Cannot be empty'], ['#actualspeed', 'presence', 'Cannot be empty'], ['#UserRegCaptcha', 'presence', 'Cannot be empty']];
+            var str = [['#select2-state', 'presence', 'Please select proper State'], ['#select2-city', 'presence', 'Please select proper City'], ['#entrydate', 'presence', 'Cannot be empty'], ['#actualspeed', 'presence', 'Cannot be empty'], ['#UserRegCaptcha', 'presence', 'Cannot be empty']];
             var valcoll = []; for (var j = 0; j < str.length; j++) { valcoll.push(str[j]); } $("#Reg").nod(valcoll, { 'disableSubmitBtn': false, 'delay': 200, 'submitBtnSelector': '#btnTemp', 'silentSubmit': 'true' });
         },
 
@@ -127,31 +127,52 @@ $(document).ready(function () {
         // Submit the Speed entry form with a help of WindModel...
 
         submitForm: function (e) {
-            setTimeout(function () { $("#btnTemp").click(); }, 200);
-            $("#RegMetadata").removeClass('notvalidate');
-            if ($("#RegMetadata .error").length > 0) { e.stopImmediatePropagation(); e.stopPropagation(); return false; }
-            var cityName = $('#select2-city').val(), stateName = $('#select2-state').val(), actualSpeed = $("#actualspeed").val(), predictedSpeed = $("#predictedspeed").val(), readingDate = $("#entrydate").val(), stationCode = $("#stationcode").val(), variance = $("#variancenumber").val(), captcha = $("#UserRegCaptcha").val();
-            var windReading = new windModel({ State: stateName, City: cityName, StationCode: stationCode, Variance: variance, ActualSpeed: actualSpeed, PredictedSpeed: predictedSpeed, ReadingDate: readingDate, Captcha: captcha });
-            windReading.save({}, {
-                success: function (model, response) {
-                    if (response.StatusCode == 400) {
-                        $('.top-right').notify({ message: { text: "Model is not having all the required data." }, type: 'danger', fadeOut: { enabled: true, delay: parseInt(Notifystatementsdisplaytime) * 1000 } }).show();
+            if (this.validateFormInput()) {
+                setTimeout(function () { $("#btnTemp").click(); }, 200);
+                $("#RegMetadata").removeClass('notvalidate');
+                if ($("#RegMetadata .error").length > 0) { e.stopImmediatePropagation(); e.stopPropagation(); return false; }
+                var cityName = $('#select2-city').val(), stateName = $('#select2-state').val(), actualSpeed = $("#actualspeed").val(), predictedSpeed = $("#predictedspeed").val(), readingDate = $("#entrydate").val(), stationCode = $("#stationcode").val(), variance = $("#variancenumber").val(), captcha = $("#UserRegCaptcha").val();
+                var windReading = new windModel({ State: stateName, City: cityName, StationCode: stationCode, Variance: variance, ActualSpeed: actualSpeed, PredictedSpeed: predictedSpeed, ReadingDate: readingDate, Captcha: captcha });
+                windReading.save({}, {
+                    success: function (model, response) {
+                        if (response.StatusCode == 400) {
+                            $('.top-right').notify({ message: { text: "Model is not having all the required data." }, type: 'danger', fadeOut: { enabled: true, delay: parseInt(Notifystatementsdisplaytime) * 1000 } }).show();
+                        }
+                        else if (response.StatusCode == 403) {
+                            $('.top-right').notify({ message: { text: "CAPTCHA Mismatch." }, type: 'danger', fadeOut: { enabled: true, delay: parseInt(Notifystatementsdisplaytime) * 1000 } }).show();
+                        }
+                        else {
+                            $('.top-right').notify({ message: { text: "Wind speed reading successfully created." }, type: 'success', fadeOut: { enabled: true, delay: parseInt(Notifystatementsdisplaytime) * 1000 } }).show();
+                        }
+                        setTimeout(function () { location.reload(); }, 500)
+                    },
+                    error: function () {
+                        $('.top-right').notify({ message: { text: "Wind speed reading not created." }, type: 'danger', fadeOut: { enabled: true, delay: parseInt(Notifystatementsdisplaytime) * 1000 } }).show();
+                        setTimeout(function () { location.reload(); }, 100)
                     }
-                    else if (response.StatusCode == 403) {
-                        $('.top-right').notify({ message: { text: "CAPTCHA Mismatch." }, type: 'danger', fadeOut: { enabled: true, delay: parseInt(Notifystatementsdisplaytime) * 1000 } }).show();
-                    }
-                    else {
-                        $('.top-right').notify({ message: { text: "Wind speed reading successfully created." }, type: 'success', fadeOut: { enabled: true, delay: parseInt(Notifystatementsdisplaytime) * 1000 } }).show();
-                    }
-                    setTimeout(function () { location.reload(); }, 500)
-                },
-                error: function () {
-                    $('.top-right').notify({ message: { text: "Wind speed reading not created." }, type: 'danger', fadeOut: { enabled: true, delay: parseInt(Notifystatementsdisplaytime) * 1000 } }).show();
-                    setTimeout(function () { location.reload(); }, 100)
-                }
-            });
+                });
+                return true;
+            }
+            else {
+                setTimeout(function () { $("#btnTemp").click(); }, 200);
+                $("#RegMetadata").removeClass('notvalidate');
+                if ($("#RegMetadata .error").length > 0) { e.stopImmediatePropagation(); e.stopPropagation(); return false; }
 
-            return true;
+            }
+        },
+
+        //Validate the form before submit, eventhough we have nod.js validation in client side 
+        //and model validation in server side also
+
+        validateFormInput: function () {
+            var valid = true, cityName = $('#select2-city').val(), stateName = $('#select2-state').val(), actualSpeed = $("#actualspeed").val(), predictedSpeed = $("#predictedspeed").val(), readingDate = $("#entrydate").val(), stationCode = $("#stationcode").val(), variance = $("#variancenumber").val(), captcha = $("#UserRegCaptcha").val();
+            //check all the properties have proper values
+            if (cityName == '' || stateName == '' || actualSpeed == '' || predictedSpeed == '' || readingDate == '' || stationCode == '' || variance == '' || captcha == '')
+                valid = false;
+            else
+                valid = true;
+            return valid;
+
         },
 
         // Fetch historical data ...
