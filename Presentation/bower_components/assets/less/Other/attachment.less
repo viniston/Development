@@ -1,0 +1,161 @@
+﻿.gallery {
+    margin-left: -30px !important;
+}
+
+    .gallery > li {
+        position: relative;
+    }
+
+        .gallery > li > a.thumbnail {
+            text-align: center;
+        }
+
+        .gallery > li > a > .thumbnail-image {
+            height: 110px;
+            position: relative;
+            text-align: center;
+            width: 150px;
+            display: inline-block;
+        }
+
+            .gallery > li > a > .thumbnail-image > img {
+                margin: auto;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                max-width: 100%;
+                vertical-align: middle;
+                max-height: 100%;
+            }
+
+        .gallery > li > a > .thumbnail-image-name {
+            border-top: 1px solid #eeeeee;
+            margin: 0px -4px;
+            padding: 6px 8px;
+            color: #555555;
+        }
+
+        .gallery > li > a > .thumbnail-mask {
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+            bottom: 64px;
+            color: #FFFFFF;
+            left: 5px;
+            opacity: 0;
+            overflow: hidden;
+            padding: 5px;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            transition: all 0.5s ease-in-out 0s;
+            text-align: left;
+        }
+
+            .gallery > li > a > .thumbnail-mask i {
+                position: absolute;
+                right: 4px;
+                font-size: 14px;
+                top: 4px;
+            }
+
+        .gallery > li > a:hover > .thumbnail-mask {
+            opacity: 0.9;
+        }
+
+.attachmentContainer {
+    display: inline-block;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 720px;
+    position: relative;
+}
+
+    .attachmentContainer .attachmentBox {
+        border: 1px solid #DDDDDD;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+        padding: 5px;
+        background-color: #EEEEEE;
+    }
+
+        .attachmentContainer .attachmentBox .info {
+            margin-bottom: 2px;
+        }
+
+            .attachmentContainer .attachmentBox .info .name, .attachmentBox .info .size {
+                color: #666666;
+                /*font-weight: 600;*/ font-weight: bold;
+            }
+
+                .attachmentContainer .attachmentBox .info .name i {
+                    margin-right: 5px;
+                    font-size: 14px;
+                }
+
+            .attachmentContainer .attachmentBox .info .size i {
+                font-size: 16px;
+                margin-left: 8px;
+            }
+
+                .attachmentContainer .attachmentBox .info .size i.icon-remove {
+                    color: #C83025;
+                    cursor: pointer;
+                }
+
+        .attachmentContainer .attachmentBox .progress {
+            margin: 0px;
+            height: 5px;
+        }
+
+        .attachmentContainer .attachmentBox form {
+            margin: 3px 0px 0px;
+            position: relative;
+        }
+
+            .attachmentContainer .attachmentBox form input {
+                position: absolute;
+                right: 0;
+                width: 68.5%;
+            }
+
+
+.attachment-dragfiles {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #EEEEEE;
+    text-align: center;
+    color: #999999;
+    top: 0px;
+    padding: 60px;
+}
+
+    .attachment-dragfiles .attachment-dragfiles-icon {
+        font-size: 72px;
+    }
+
+    .attachment-dragfiles .attachment-dragfiles-Heading {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .attachment-dragfiles .attachment-dragfiles-text {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+.attachment-progress {
+    position: absolute;
+    width: 400px;
+    bottom: 20px;
+    font-size: 12px;
+    /*font-weight: 600;*/ font-weight: bold;
+}
+
+    .attachment-progress .progress {
+        margin: 0px;
+        height: 8px;
+    }

@@ -1,0 +1,100 @@
+﻿div.ganttview-list {
+    height: 494px;
+
+    .ganttview-list-container {
+        .widthcent;
+    }
+
+    .ganttview-list-container-data {
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 459px;
+
+        table > tbody {
+            .widthcent;
+
+            tr[data-entitylevel="0"] {
+                background-color: #d9d9d9;
+            }
+            //For GroupBy Filter
+            tr[data-entitylevel="-1"] {
+                background-color: #999;
+                cursor: default;
+                pointer-events: none;
+            }
+
+            tr[data-entitylevel="0"][data-iscostcentre="true"] {
+                background-color: #BCBCBC;
+            }
+
+            tr[data-entitylevel="0"][data-isobjective="true"] {
+                background-color: #BCBCBC;
+            }
+
+            tr[data-entitylevel="0"][data-iscalender="true"] {
+                background-color: #BCBCBC;
+            }
+        }
+    }
+}
+
+div.ganttview-data-block-container[data-entitylevel="0"] {
+    background-color: #d9d9d9;
+}
+
+//For GroupBy Filter
+div.ganttview-data-block-container[data-entitylevel="-1"] {
+    background-color: #999;
+    cursor: default;
+    pointer-events: none;
+}
+
+div.ganttview-data-block-container[data-entitylevel="0"][data-iscostcentre="true"] {
+    background-color: #B5B5B5;
+}
+
+div.ganttview-data-block-container[data-entitylevel="0"][data-isobjective="true"] {
+    background-color: #B5B5B5;
+}
+
+div.ganttview-data-block-container[data-entitylevel="0"][data-iscalender="true"] {
+    background-color: #B5B5B5;
+}
+
+div.ganttview-grid {
+    height: 443px;
+}
+
+div.ganttview-data {
+    height: 459px;
+
+    .ganttview-data-blocks-page {
+        .inlineBlock;
+        .widthInherit;
+        float: left;
+    }
+}
+
+#moduleContextGantt {
+    textarea#GanttDesc {
+        height: 150px;
+        min-height: 100px;
+        max-height: 150px;
+        width: 90%;
+        max-width: 90%;
+        min-width: 90%;
+    }
+}
+
+
+div.ganttview-header-block {
+    position: relative;
+    height: 33px;
+    width: inherit;
+}
+
+div.qtip-header-block {
+    position: absolute;
+    height: inherit;
+    opacity: 0.3;
+}

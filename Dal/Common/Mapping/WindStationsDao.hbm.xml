@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Development.Dal.Common.Model.WindStationsDao,Development.Dal" table="`WindStations`" lazy="true">
+    <id name="Id" column="ID">
+      <generator class="native">
+        <param name="property">Id</param>
+      </generator>
+    </id>
+    <property type="string"  name="StateName" column="`StateName`"/>
+    <property type="string"  name="CityName" column="`CityName`"/>
+    <property type="string"  name="StationID" column="`StationID`"/>
+    <property type="int"     name="PredictedSpeed" column="`PredictedSpeed`"/>
+  </class>
+</hibernate-mapping>

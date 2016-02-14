@@ -1,0 +1,52 @@
+.radio-custom {
+    input[type=radio] {
+        display: none;
+    }
+
+    i {
+        background-image: url(../img/form.png);
+        background-position: 0 -16px;
+        background-repeat: no-repeat;
+        margin-left: -20px;
+        margin-right: 4px;
+        padding-left: 16px;
+        width: 16px;
+        height: 16px;
+
+        &.checked {
+            /* checked */
+            background-position: -48px -16px;
+        }
+
+        &.disabled {
+            /* disabled */
+            background-position: -64px -16px;
+
+            &.checked {
+                /* disabled and checked */
+                background-position: -80px -16px;
+            }
+        }
+    }
+}
+
+    .radio-custom:hover {
+        i {
+            background-position: -16px -16px;
+
+            &.checked {
+                /* checked */
+                background-position: -32px -16px;
+            }
+
+            &.disabled {
+                /* disabled */
+                background-position: -64px -16px;
+
+                &.checked {
+                    /* disabled and checked */
+                    background-position: -80px -16px;
+                }
+            }
+        }
+    }

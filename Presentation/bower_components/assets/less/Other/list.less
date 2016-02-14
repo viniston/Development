@@ -1,0 +1,325 @@
+﻿.ListHeader {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+}
+
+.ListHolder, .ListHolder ul {
+    list-style: none;
+    margin: 0;
+    color: #666666;
+}
+
+    .ListHolder li {
+        list-style: none;
+        line-height: 29px;
+    }
+
+
+    .ListHolder .stepHeader {
+        border-bottom: 1px solid #DDDDDD;
+        color: #666666;
+        margin-top: 20px;
+        padding-bottom: 5px;
+    }
+
+        /*.ListHolder .stepHeader .info {
+            color: #0088CC;
+            cursor: help;
+            margin-left: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }*/
+        .ListHolder .stepHeader .icon-caret-right, .ListHolder .stepHeader .icon-caret-down {
+            color: #666666;
+            cursor: help;
+            margin-right: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .ListHolder .stepHeader .icon-caret-right {
+            margin-right: 6px;
+        }
+
+        .ListHolder .stepHeader .menuIcon {
+            color: #999999;
+            cursor: pointer;
+            margin-top: 4px;
+            display: none;
+            margin-right: 6px;
+        }
+
+        .ListHolder .stepHeader .btn {
+            display: none;
+        }
+
+    .ListHolder > li > .stepHeader:hover > .menuIcon {
+        display: block;
+    }
+
+    .ListHolder > li > .stepHeader:hover > .btn {
+        display: block;
+    }
+
+    .ListHolder .ListItem {
+        background-color: #F5F5F5;
+        border: 1px solid #DDDDDD;
+        border-radius: 5px 5px 5px 5px;
+        margin-bottom: 5px;
+        padding: 0 5px;
+    }
+
+
+        .ListHolder .ListItem:hover {
+            background-color: #F3F8FB;
+            background-image: linear-gradient(to bottom, #F7FBFC, #ECF4F9);
+            background-repeat: repeat-x;
+            text-decoration: none;
+        }
+
+        .ListHolder .ListItem a.name {
+            font-weight: bold;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: inline-block;
+            position: relative;
+            margin-left: 2px;
+            margin-top: 1px;
+            width: 83%;
+            line-height: 29px;
+            text-decoration: none;
+        }
+
+
+        .ListHolder .ListItem .ListItemIcon {
+            color: #bbb;
+            float: left;
+            font-size: 18px;
+            margin-right: 4px;
+            margin-top: 6px;
+        }
+
+        .ListHolder .ListItem .ListItemNo {
+            color: #aaa;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: bold;
+            display: inline-block;
+            padding: 0px 8px 0px 3px;
+            vertical-align: sub;
+        }
+
+        .ListHolder .ListItem .btn {
+            margin-top: 2px; //Modified by MADHUR for Alignment of Button - 24 Nov.14
+            margin-right: -1px;
+            margin-left: 5px;
+        }
+
+        .ListHolder .ListItem.current {
+            background-color: #d9ffdf;
+            border: 2px solid #00c957;
+        }
+
+        .ListHolder .ListItem.next {
+            background-color: #EBF4FC;
+            border: 2px solid #3399FF;
+        }
+
+        .ListHolder .ListItem .icon-status {
+            font-size: 14px;
+            float: left;
+            color: rgb(0, 136, 204);
+            margin-top: 7px;
+            -webkit-text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+            text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+            margin-right: 4px;
+            position: relative;
+        }
+
+        .ListHolder .ListItem.InProgress .icon-status:before {
+            color: #0088cc;
+            content: "\f061";
+        }
+
+        .ListHolder .ListItem.Completed .icon-status:before {
+            content: "\f111";
+            color: #83A94C;
+        }
+
+        .ListHolder .ListItem.Unassigned .icon-status:before {
+            content: "\f111";
+            color: #AAAAAA;
+        }
+
+        .ListHolder .ListItem.NotApplicable .icon-status:before {
+            content: "\f04d";
+            color: #AAAAAA;
+        }
+
+        .ListHolder .ListItem.Approved .icon-status:before {
+            content: "\f00c";
+            color: #83A94C;
+        }
+
+        .ListHolder .ListItem.Rejected .icon-status:before {
+            content: "\f00d";
+            color: #CC4036;
+        }
+
+        .ListHolder .ListItem.UnableToComplete .icon-status:before {
+            content: "\f111";
+            color: #ffff00;
+            text-shadow: 0 0px 2px #CC4036;
+        }
+
+        .ListHolder .ListItem.InProgress .duration, .ListHolder .ListItem.Unassigned .duration, .ListHolder .ListItem.UnableToComplete .duration {
+            display: block;
+        }
+
+        .ListHolder .ListItem.Completed .duration, .ListHolder .ListItem.Approved .duration, .ListHolder .ListItem.Rejected .duration {
+            display: none;
+        }
+
+        .ListHolder .ListItem.OverDue .duration {
+            color: #FF1111;
+        }
+
+        .ListHolder .ListItem.Completed .icon-status, .ListHolder .ListItem.Unassigned .icon-status, .ListHolder .ListItem.UnableToComplete .icon-status {
+            top: 0.5px;
+        }
+
+        .ListHolder .ListItem .menuIcon {
+            color: #999999;
+            float: right;
+            font-size: 14px;
+            margin-top: 8px;
+            display: none;
+            cursor: pointer;
+        }
+
+        .ListHolder .ListItem:hover .menuIcon {
+            display: block;
+        }
+
+        .ListHolder .ListItem img.user {
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+            height: 27px;
+            margin-right: 4px;
+            padding: 1px;
+        }
+
+.flag {
+    cursor: pointer;
+    font-size: 18px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 3px;
+}
+
+
+.myTask .ListHolder .ListItem .ListItemIcon {
+    margin-top: 8px;
+    margin-right: 7px;
+    margin-left: 3px;
+}
+
+.myTask .ListHolder .ListItem .icon-status {
+    float: none;
+    position: relative;
+    top: 1px;
+    margin-left: 3px;
+    margin-right: 0;
+}
+
+.myTask .ListHolder .ListItem a.name {
+    font-weight: bold;
+    font-size: 15px;
+    top: 1px;
+    text-decoration: none;
+}
+
+/*.myTask .ListHolder .ListItem a.name:hover{
+    color: #0088CC;
+}*/
+
+.myTask .breadcrumb {
+    padding-top: 0px;
+    font-style: italic;
+}
+
+    .myTask .breadcrumb a {
+        color: #999;
+    }
+
+.myTask .ListHolder .ListItem:hover .breadcrumb a {
+    color: #0088CC;
+}
+
+.myTask .breadcrumb > li > .divider {
+    padding: 0 3px 0 1px;
+}
+
+.myTask .ListHolder .ListItem img.user {
+    float: left;
+    height: 33px;
+    margin-top: 6px;
+    vertical-align: middle;
+}
+
+.myTask .username {
+    margin-left: 0px;
+    vertical-align: text-top;
+    line-height: 19px;
+    height: 20px;
+    margin-top: 6px;
+    display: inline-block;
+    width: 75%;
+}
+
+    .myTask .username a {
+        color: #999;
+        width: 100%;
+        max-height: 35px;
+        .manageTextOverflow;
+    }
+
+    .myTask .username span {
+        color: #999;
+        width: 100%;
+        max-height: 35px;
+        .manageTextOverflow;
+    }
+
+
+
+.myTask .statusBlock {
+    color: #666666;
+    height: 20px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.myTask .dateBlock {
+    height: 25px;
+    padding-right: 10px;
+    color: rgb(153, 153, 153);
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+
+.myTask .ListHolder .ListItem .row-fluid .span6 {
+    width: 401px;
+}
+
+.myTask .ListHolder .ListItem .row-fluid .span3 {
+    width: 150px;
+}
+
+
+.myTask > .row-fluid > .span6 {
+    width: 752px;
+}

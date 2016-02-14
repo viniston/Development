@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="BrandSystems" />
+    <link href="bower_components/assets/css/mui.css" rel="stylesheet" />
+    <link href="bower_components/assets/css/mui-responsive.css" rel="stylesheet" />
+    <link href="bower_components/assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="bower_components/assets/css/bootstrap-datepicker.css" rel="stylesheet" />
+    <link href="bower_components/assets/css/select2.css" rel="stylesheet" />
+    <link href="bower_components/assets/css/qtip2.css" rel="stylesheet" />
+    <link href="bower_components/assets/css/bootstrap-notify.css" rel="stylesheet" />
+</head>
+<body class="UR">
+    <div class='notifications top-right'></div>
+    <div class="userRegistration">
+        <div class="contentBlock">
+            <div title="" class="header bsiLogo">
+                <img id="loginpageTitle" src="img/download.jpg" alt="Logo" />
+            </div>
+            <div id="Reg" class="box box-noborder">
+                <div class="box-header">
+                    <h3>Wind Monitoring System</h3>
+                    <p>Please enter the actual speed for analytical purpose.</p>
+                    <div class="information">
+                        <span>
+                            <i class="icon-asterisk"></i>
+                            <span>Mandatory Fields</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="box-content" id="maincontainer">
+                    <div class="box-content-margin">
+                        <form id="RegMetadata" class="form-float">
+                            <div class="span12">
+                                <h4 class="blockTitle">Basic Information</h4>
+                                <div id="staticControls">
+                                    <div class="control-group">
+                                        <label class="control-label" for="FirstName">State</label>
+                                        <div class="controls">
+                                            <select class="longbox" ui-select2 id="select2-state">
+                                                <option value="">-Select State-</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="FirstName">City</label>
+                                        <div class="controls">
+                                            <select class="longbox" ui-select2 id="select2-city">
+                                                <option value="">-Select City-</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Email">Station Code <i title="Will be populated automatically as per your selection" class="icon-info-sign infoIcon" id="I2"></i></label>
+                                        <div class="controls">
+                                            <input type="text" disabled id="stationcode" placeholder="Station Code" class="longbox" />
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="Password">Date <a id="historicalData"><i title=" Click here to see past 10 days of historical data." class="icon-info-sign infoIcon" id="passwordPolicy"></i></a></label>
+                                        <div class="controls">
+                                            <input type="text" id="entrydate" placeholder="Date" autocomplete="off" />
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="variance">Predicted Speed <i title="Will be populated automatically as per your selection" class="icon-info-sign infoIcon" id="I1"></i></label>
+                                        <div class="controls">
+                                            <input type="number" disabled class="speedTrack" id="predictedspeed" />
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="variance">Actual Speed</label>
+                                        <div class="controls">
+                                            <input type="number" class="speedTrack" placeholder="Actual Speed" id="actualspeed" />
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <div class="control-group">
+                                            <label class="control-label">Enter the captcha</label>
+                                            <div class="controls">
+                                                <input type="password" name="captcha" id="UserRegCaptcha" autocomplete="off" ng-model="UserRegCaptcha" tabindex="3" value="" placeholder="Enter the captcha here" />
+                                                <table class="secondShortbox">
+                                                    <tr>
+                                                        <td style="height: 50px;">
+                                                            <img class="gearSmall" id="imgCaptcha" src="bower_components/assets/img/loading.gif">
+                                                        </td>
+                                                        <td class="capchaTD">
+                                                            <button type="button" title="Click here to generate another one." class="btn btn-link btn-block nomargin margin-bottom10x opaque-full icon-refresh capcharefresh" tabindex="4" id="btnCaptchaRfresh"></button>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label" for="variance">Variance <i title="Difference between predicted and actual speed" class="icon-info-sign infoIcon" id="I3"></i></label>
+                                        <div class="controls">
+                                            <input type="text" disabled id="variancenumber" />
+                                            <!--style="color: red !important;"-->
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="span12" id="historyDiv">
+                                <h4 class="blockTitle">Historical information <a><i id="expandcollapse" title="Expand/Collapse." class="icon-minus infoIcon" id="I1"></i></a></h4>
+                                <div class="historical-wrapper">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>State</th>
+                                                <th>City</th>
+                                                <th>Station Code</th>
+                                                <th>Predicted Speed</th>
+                                                <th>Actual Speed</th>
+                                                <th>Variance</th>
+                                                <th>Date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tbdyHistory">
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="saving" id="showhideprogress" style="display: none">
+                        <div class="InProgress">
+                            <img src="bower_components/assets/img/loading.gif" />
+                            <span>Saving...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-footer">
+                    <div class="pull-right buttongroup">
+                        <input id="Back" class="btn btn-small" onclick="window.location = 'UserRegistration.html'; return false;" value="Refresh Form" />
+                        <input id="registerbtn" class="btn btn-medium btn-primary" value="Save" />
+                        <input style="display: none" type="submit" id="btnTemp" invisible />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bower_components/assets/js/Jquery/jquery-2.0.3.min.js"></script>
+    <script src="bower_components/assets/js/Nod/nod.js"></script>
+    <script src="bower_components/assets/js/Bootstrap/DatePicker/bootstrap-datepicker.js"></script>
+    <script src="bower_components/assets/js/bootstrap/plugin.js"></script>
+    <script src="bootbox.js"></script>
+    <script src="bower_components/assets/js/Bootstrap/bootstrap-notify.js"></script>
+    <script src="bower_components/assets/js/UtilityFramework/jquery.qtip.js"></script>
+    <script src="bower_components/assets/js/Select2/select2.js"></script>
+    <script src="bower_components/assets/js/libs/underscore.js"></script>
+    <script src="bower_components/assets/js/libs/backbone.js"></script>
+    <script src="bower_components/app/app.js"></script>
+
+
+</body>
+</html>

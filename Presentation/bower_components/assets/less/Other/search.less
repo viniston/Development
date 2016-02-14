@@ -1,0 +1,139 @@
+﻿.searchblock {
+    .searchcontent {
+        list-style: none;
+        margin: -38px 0 0;
+        padding: 18px;
+
+        li {
+            margin-top: 20px;
+            /*#region Image Preview in Search Results*/
+            //Style for Image Preview in Image Search Result
+            //By Madhur 11 SEP 2014
+            > div.searchResult-imgPrev {
+                display: inline-block;
+                background-color: #FFF;
+                border: 1px solid #EEE;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+                border-radius: 3px 3px 3px 3px;
+                color: #FFFFFF;
+                float: left;
+                left: 20px;
+                top: 6px;
+                overflow: hidden;
+                margin: 0 10px 0 0;
+                padding: 1px;
+                height: 40px;
+                width: 40px;
+                text-align: center;
+                vertical-align: middle;
+
+                > .sr-ip-container {
+                    display: table-cell;
+                    text-align: center;
+                    vertical-align: middle;
+                    overflow: hidden;
+                    margin: 0;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+
+                    > img {
+                        height: auto;
+                        width: auto;
+                        max-height: 40px;
+                        max-width: 40px;
+                    }
+                }
+            }
+            /*#endregion*/
+        }
+
+        .icon {
+            background-color: #08c;
+            border: 1px solid #fff;
+            border-radius: 3px 3px 3px 3px;
+            color: #fff;
+            float: left;
+            top: 6px;
+            font-size: 16px;
+            line-height: 16px;
+            margin-right: 10px;
+            padding: 12px 6px; /*By Madhur 6Dec2014*/
+            text-align: center;
+            min-width: 30px;
+            max-width: 35px;
+        }
+
+        .block {
+            margin-left: 54px;
+            min-height: 56px;
+            border-right: 1px solid #F4F4F4;
+            border-left: 2px solid #0088cc;
+            position: relative;
+            cursor: pointer;
+
+            &:hover {
+                background-color: lighten(@linkColor,55%);
+                #gradient > .vertical(desaturate(lighten(@linkColor,58%),50%),desaturate(lighten(@linkColor,55%),50%));
+            }
+
+            .arrow-left {
+                border-bottom: 7px solid transparent;
+                border-right: 6px solid #0088CC;
+                border-top: 7px solid transparent;
+                content: "";
+                left: -8px;
+                position: absolute;
+                top: 16px;
+            }
+
+            .name {
+                color: #333333;
+                display: block;
+                font-size: 12px;
+                font-weight: bold;
+                padding-left: 5px;
+                padding-top: 5px;
+                text-decoration: none;
+                word-break: break-all;
+            }
+
+            .body {
+                display: block;
+                font-size: 11px;
+                padding-left: 5px;
+                width: 90%;
+                word-wrap: break-word;
+
+                .path {
+                    color: #999;
+                }
+            }
+
+            .footer {
+                display: block;
+                background-color: #FAFAFA;
+                border-top: 1px solid #F4F4F4;
+                border-bottom: 1px solid #F4F4F4;
+                padding: 8px;
+
+                .btn {
+                    margin-top: -3px;
+                }
+
+                .time {
+                    color: #999999;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+        .searchcontent li:nth-child(odd) .block {
+            background-color: #F8F8F8;
+        }
+
+        .searchcontent li:nth-child(even) .block {
+            background-color: #F1F1F1;
+        }
+}

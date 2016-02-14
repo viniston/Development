@@ -1,0 +1,6077 @@
+[
+  {
+    "StationID": "MH-MU-01",
+    "CityName": "Mumbai",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "DL-DE-02",
+    "CityName": "Delhi",
+    "StateName": "Delhi"
+  },
+  {
+    "StationID": "KA-BE-03",
+    "CityName": "Bengaluru",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "GJ-AH-04",
+    "CityName": "Ahmedabad",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TE-HY-05",
+    "CityName": "Hyderabad",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "TN-CH-06",
+    "CityName": "Chennai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "WB-KO-07",
+    "CityName": "Kolkata",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MH-PU-08",
+    "CityName": "Pune",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-JA-09",
+    "CityName": "Jaipur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "GJ-SU-10",
+    "CityName": "Surat",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-LU-11",
+    "CityName": "Lucknow",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-KA-12",
+    "CityName": "Kanpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-NA-13",
+    "CityName": "Nagpur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-PA-14",
+    "CityName": "Patna",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MP-IN-15",
+    "CityName": "Indore",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-TH-16",
+    "CityName": "Thane",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MP-BH-17",
+    "CityName": "Bhopal",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "AP-VI-18",
+    "CityName": "Visakhapatnam",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "GJ-VA-19",
+    "CityName": "Vadodara",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-FI-20",
+    "CityName": "Firozabad",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "PB-LU-21",
+    "CityName": "Ludhiana",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "GJ-RA-22",
+    "CityName": "Rajkot",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-AG-23",
+    "CityName": "Agra",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "WB-SI-24",
+    "CityName": "Siliguri",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MH-NA-25",
+    "CityName": "Nashik",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "HR-FA-26",
+    "CityName": "Faridabad",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "PB-PA-27",
+    "CityName": "Patiala",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-ME-28",
+    "CityName": "Meerut",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-KA-29",
+    "CityName": "Kalyan-Dombivali",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MH-VA-30",
+    "CityName": "Vasai-Virar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-VA-31",
+    "CityName": "Varanasi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "JK-SR-32",
+    "CityName": "Srinagar",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "JH-DH-33",
+    "CityName": "Dhanbad",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "RJ-JO-34",
+    "CityName": "Jodhpur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "PB-AM-35",
+    "CityName": "Amritsar",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "CG-RA-36",
+    "CityName": "Raipur",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "UP-AL-37",
+    "CityName": "Allahabad",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-CO-38",
+    "CityName": "Coimbatore",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-JA-39",
+    "CityName": "Jabalpur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-GW-40",
+    "CityName": "Gwalior",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "AP-VI-41",
+    "CityName": "Vijayawada",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-MA-42",
+    "CityName": "Madurai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "AS-GU-43",
+    "CityName": "Guwahati",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "CH-CH-44",
+    "CityName": "Chandigarh",
+    "StateName": "Chandigarh"
+  },
+  {
+    "StationID": "KA-HU-45",
+    "CityName": "Hubli-Dharwad",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "UP-AM-46",
+    "CityName": "Amroha",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-MO-47",
+    "CityName": "Moradabad",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "HR-GU-48",
+    "CityName": "Gurgaon",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "UP-AL-49",
+    "CityName": "Aligarh",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-SO-50",
+    "CityName": "Solapur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "JH-RA-51",
+    "CityName": "Ranchi",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "PB-JA-52",
+    "CityName": "Jalandhar",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "TN-TI-53",
+    "CityName": "Tiruchirappalli",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "OD-BH-54",
+    "CityName": "Bhubaneswar",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "TN-SA-55",
+    "CityName": "Salem",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TE-WA-56",
+    "CityName": "Warangal",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "MH-MI-57",
+    "CityName": "Mira-Bhayandar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KL-TH-58",
+    "CityName": "Thiruvananthapuram",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MH-BH-59",
+    "CityName": "Bhiwandi",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-SA-60",
+    "CityName": "Saharanpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "AP-GU-61",
+    "CityName": "Guntur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MH-AM-62",
+    "CityName": "Amravati",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-BI-63",
+    "CityName": "Bikaner",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "UP-NO-64",
+    "CityName": "Noida",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "JH-JA-65",
+    "CityName": "Jamshedpur",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "CG-BH-66",
+    "CityName": "Bhilai Nagar",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "OD-CU-67",
+    "CityName": "Cuttack",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KL-KO-68",
+    "CityName": "Kochi",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "RJ-UD-69",
+    "CityName": "Udaipur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "GJ-BH-70",
+    "CityName": "Bhavnagar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UK-DE-71",
+    "CityName": "Dehradun",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "WB-AS-72",
+    "CityName": "Asansol",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MH-NA-73",
+    "CityName": "Nanded-Waghala",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-AJ-74",
+    "CityName": "Ajmer",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "GJ-JA-75",
+    "CityName": "Jamnagar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MP-UJ-76",
+    "CityName": "Ujjain",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-SA-77",
+    "CityName": "Sangli",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-LO-78",
+    "CityName": "Loni",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-JH-79",
+    "CityName": "Jhansi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "PU-PO-80",
+    "CityName": "Pondicherry",
+    "StateName": "Puducherry"
+  },
+  {
+    "StationID": "AP-NE-81",
+    "CityName": "Nellore",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "JK-JA-82",
+    "CityName": "Jammu",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "KA-BE-83",
+    "CityName": "Belagavi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "OD-RA-84",
+    "CityName": "Raurkela",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KA-MA-85",
+    "CityName": "Mangaluru",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-TI-86",
+    "CityName": "Tirunelveli",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-MA-87",
+    "CityName": "Malegaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-GA-88",
+    "CityName": "Gaya",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TN-TI-89",
+    "CityName": "Tiruppur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KA-DA-90",
+    "CityName": "Davanagere",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KL-KO-91",
+    "CityName": "Kozhikode",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MH-AK-92",
+    "CityName": "Akola",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AP-KU-93",
+    "CityName": "Kurnool",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "JH-BO-94",
+    "CityName": "Bokaro Steel City",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "AP-RA-95",
+    "CityName": "Rajahmundry",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KA-BA-96",
+    "CityName": "Ballari",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TR-AG-97",
+    "CityName": "Agartala",
+    "StateName": "Tripura"
+  },
+  {
+    "StationID": "BR-BH-98",
+    "CityName": "Bhagalpur",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MH-LA-99",
+    "CityName": "Latur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MH-DH-00",
+    "CityName": "Dhule",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "CG-KO-01",
+    "CityName": "Korba",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "RJ-BH-02",
+    "CityName": "Bhilwara",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "OD-BR-03",
+    "CityName": "Brahmapur",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KA-MY-04",
+    "CityName": "Mysore",
+    "StateName": "Karnatka"
+  },
+  {
+    "StationID": "BR-MU-05",
+    "CityName": "Muzaffarpur",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MH-AH-06",
+    "CityName": "Ahmednagar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KL-KO-07",
+    "CityName": "Kollam",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "WB-RA-08",
+    "CityName": "Raghunathganj",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "CG-BI-09",
+    "CityName": "Bilaspur",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "UP-SH-10",
+    "CityName": "Shahjahanpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KL-TH-11",
+    "CityName": "Thrissur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "RJ-AL-12",
+    "CityName": "Alwar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "AP-KA-13",
+    "CityName": "Kakinada",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TE-NI-14",
+    "CityName": "Nizamabad",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "MP-SA-15",
+    "CityName": "Sagar",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "KA-TU-16",
+    "CityName": "Tumkur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "HR-HI-17",
+    "CityName": "Hisar",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "HR-RO-18",
+    "CityName": "Rohtak",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "HR-PA-19",
+    "CityName": "Panipat",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "BR-DA-20",
+    "CityName": "Darbhanga",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "WB-KH-21",
+    "CityName": "Kharagpur",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MZ-AI-22",
+    "CityName": "Aizawl",
+    "StateName": "Mizoram"
+  },
+  {
+    "StationID": "MH-IC-23",
+    "CityName": "Ichalkaranji",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AP-TI-24",
+    "CityName": "Tirupati",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "HR-KA-25",
+    "CityName": "Karnal",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "PB-BA-26",
+    "CityName": "Bathinda",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-RA-27",
+    "CityName": "Rampur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-SH-28",
+    "CityName": "Shivamogga",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MP-RA-29",
+    "CityName": "Ratlam",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "UP-MO-30",
+    "CityName": "Modinagar",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "CG-DU-31",
+    "CityName": "Durg",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "ML-SH-32",
+    "CityName": "Shillong",
+    "StateName": "Meghalaya"
+  },
+  {
+    "StationID": "MN-IM-33",
+    "CityName": "Imphal",
+    "StateName": "Manipur"
+  },
+  {
+    "StationID": "UP-HA-34",
+    "CityName": "Hapur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-RA-35",
+    "CityName": "Ranipet",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "AP-AN-36",
+    "CityName": "Anantapur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "BR-AR-37",
+    "CityName": "Arrah",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TE-KA-38",
+    "CityName": "Karimnagar",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "MH-PA-39",
+    "CityName": "Parbhani",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-ET-40",
+    "CityName": "Etawah",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-BH-41",
+    "CityName": "Bharatpur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "BR-BE-42",
+    "CityName": "Begusarai",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "DL-NE-43",
+    "CityName": "New Delhi",
+    "StateName": "Delhi"
+  },
+  {
+    "StationID": "BR-CH-44",
+    "CityName": "Chhapra",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "AP-KA-45",
+    "CityName": "Kadapa",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TE-RA-46",
+    "CityName": "Ramagundam",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "RJ-PA-47",
+    "CityName": "Pali",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MP-SA-48",
+    "CityName": "Satna",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "AP-VI-49",
+    "CityName": "Vizianagaram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "BR-KA-50",
+    "CityName": "Katihar",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UK-HA-51",
+    "CityName": "Hardwar",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "HR-SO-52",
+    "CityName": "Sonipat",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "TN-NA-53",
+    "CityName": "Nagercoil",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-TH-54",
+    "CityName": "Thanjavur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-MU-55",
+    "CityName": "Murwara (Katni)",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "WB-NA-56",
+    "CityName": "Naihati",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "UP-SA-57",
+    "CityName": "Sambhal",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "GJ-NA-58",
+    "CityName": "Nadiad",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "HR-YA-59",
+    "CityName": "Yamunanagar",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "WB-EN-60",
+    "CityName": "English Bazar",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "AP-EL-61",
+    "CityName": "Eluru",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "BR-MU-62",
+    "CityName": "Munger",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "HR-PA-63",
+    "CityName": "Panchkula",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "KA-RA-64",
+    "CityName": "Raayachuru",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-PA-65",
+    "CityName": "Panvel",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "JH-DE-66",
+    "CityName": "Deoghar",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "AP-ON-67",
+    "CityName": "Ongole",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "AP-NA-68",
+    "CityName": "Nandyal",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MP-MO-69",
+    "CityName": "Morena",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "HR-BH-70",
+    "CityName": "Bhiwani",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "GJ-PO-71",
+    "CityName": "Porbandar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "KL-PA-72",
+    "CityName": "Palakkad",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "GJ-AN-73",
+    "CityName": "Anand",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "BR-PU-74",
+    "CityName": "Purnia",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "WB-BA-75",
+    "CityName": "Baharampur",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "RJ-BA-76",
+    "CityName": "Barmer",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "GJ-MO-77",
+    "CityName": "Morvi",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-OR-78",
+    "CityName": "Orai",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-BA-79",
+    "CityName": "Bahraich",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-SI-80",
+    "CityName": "Sikar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-VE-81",
+    "CityName": "Vellore",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-SI-82",
+    "CityName": "Singrauli",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TE-KH-83",
+    "CityName": "Khammam",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "GJ-MA-84",
+    "CityName": "Mahesana",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AS-SI-85",
+    "CityName": "Silchar",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "OD-SA-86",
+    "CityName": "Sambalpur",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "MP-RE-87",
+    "CityName": "Rewa",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "UP-UN-88",
+    "CityName": "Unnao",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "WB-HU-89",
+    "CityName": "Hugli-Chinsurah",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "WB-RA-90",
+    "CityName": "Raiganj",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "JH-PH-91",
+    "CityName": "Phusro",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "JH-AD-92",
+    "CityName": "Adityapur",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "KL-AL-93",
+    "CityName": "Alappuzha",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "HR-BA-94",
+    "CityName": "Bahadurgarh",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "AP-MA-95",
+    "CityName": "Machilipatnam",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "UP-RA-96",
+    "CityName": "Rae Bareli",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "WB-JA-97",
+    "CityName": "Jalpaiguri",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "GJ-BH-98",
+    "CityName": "Bharuch",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "PB-PA-99",
+    "CityName": "Pathankot",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "PB-HO-00",
+    "CityName": "Hoshiarpur",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "JK-BA-01",
+    "CityName": "Baramula",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "AP-AD-02",
+    "CityName": "Adoni",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "HR-JI-03",
+    "CityName": "Jind",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "RJ-TO-04",
+    "CityName": "Tonk",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "AP-TE-05",
+    "CityName": "Tenali",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-KA-06",
+    "CityName": "Kancheepuram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "GJ-VA-07",
+    "CityName": "Vapi",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "HR-SI-08",
+    "CityName": "Sirsa",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "GJ-NA-09",
+    "CityName": "Navsari",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TE-MA-10",
+    "CityName": "Mahbubnagar",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "OD-PU-11",
+    "CityName": "Puri",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KA-RO-12",
+    "CityName": "Robertson Pet",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-ER-13",
+    "CityName": "Erode",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "PB-BA-14",
+    "CityName": "Batala",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UK-HA-15",
+    "CityName": "Haldwani-cum-Kathgodam",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "MP-VI-16",
+    "CityName": "Vidisha",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "BR-SA-17",
+    "CityName": "Saharsa",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "HR-TH-18",
+    "CityName": "Thanesar",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "AP-CH-19",
+    "CityName": "Chittoor",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "GJ-VE-20",
+    "CityName": "Veraval",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-LA-21",
+    "CityName": "Lakhimpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-SI-22",
+    "CityName": "Sitapur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "AP-HI-23",
+    "CityName": "Hindupur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "WB-SA-24",
+    "CityName": "Santipur",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "WB-BA-25",
+    "CityName": "Balurghat",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MP-GA-26",
+    "CityName": "Ganjbasoda",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "PB-MO-27",
+    "CityName": "Moga",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "AP-PR-28",
+    "CityName": "Proddatur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "UK-SR-29",
+    "CityName": "Srinagar",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "WB-ME-30",
+    "CityName": "Medinipur",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "WB-HA-31",
+    "CityName": "Habra",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "BR-SA-32",
+    "CityName": "Sasaram",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "BR-HA-33",
+    "CityName": "Hajipur",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "GJ-BH-34",
+    "CityName": "Bhuj",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MP-SH-35",
+    "CityName": "Shivpuri",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "WB-RA-36",
+    "CityName": "Ranaghat",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "HP-SH-37",
+    "CityName": "Shimla",
+    "StateName": "Himachal Pradesh"
+  },
+  {
+    "StationID": "TN-TI-38",
+    "CityName": "Tiruvannamalai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "HR-KA-39",
+    "CityName": "Kaithal",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "CG-RA-40",
+    "CityName": "Rajnandgaon",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "GJ-GO-41",
+    "CityName": "Godhra",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "JH-HA-42",
+    "CityName": "Hazaribag",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "AP-BH-43",
+    "CityName": "Bhimavaram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MP-MA-44",
+    "CityName": "Mandsaur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "AS-DI-45",
+    "CityName": "Dibrugarh",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "KA-KO-46",
+    "CityName": "Kolar",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "WB-BA-47",
+    "CityName": "Bankura",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-MA-48",
+    "CityName": "Mandya",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "BR-DE-49",
+    "CityName": "Dehri-on-Sone",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "AP-MA-50",
+    "CityName": "Madanapalle",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "PB-MA-51",
+    "CityName": "Malerkotla",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-LA-52",
+    "CityName": "Lalitpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "BR-BE-53",
+    "CityName": "Bettiah",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TN-PO-54",
+    "CityName": "Pollachi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "PB-KH-55",
+    "CityName": "Khanna",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "MP-NE-56",
+    "CityName": "Neemuch",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "HR-PA-57",
+    "CityName": "Palwal",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "GJ-PA-58",
+    "CityName": "Palanpur",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-GU-59",
+    "CityName": "Guntakal",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "WB-NA-60",
+    "CityName": "Nabadwip",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-UD-61",
+    "CityName": "Udupi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "CG-JA-62",
+    "CityName": "Jagdalpur",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "BR-MO-63",
+    "CityName": "Motihari",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UP-PI-64",
+    "CityName": "Pilibhit",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "NL-DI-65",
+    "CityName": "Dimapur",
+    "StateName": "Nagaland"
+  },
+  {
+    "StationID": "PB-MO-66",
+    "CityName": "Mohali",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "RJ-SA-67",
+    "CityName": "Sadulpur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-RA-68",
+    "CityName": "Rajapalayam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "AP-DH-69",
+    "CityName": "Dharmavaram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "UK-KA-70",
+    "CityName": "Kashipur",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "TN-SI-71",
+    "CityName": "Sivakasi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "WB-DA-72",
+    "CityName": "Darjiling",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-CH-73",
+    "CityName": "Chikkamagaluru",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "AP-GU-74",
+    "CityName": "Gudivada",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "OD-BA-75",
+    "CityName": "Baleshwar Town",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "TE-MA-76",
+    "CityName": "Mancherial",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "AP-SR-77",
+    "CityName": "Srikakulam",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TE-AD-78",
+    "CityName": "Adilabad",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "MH-YA-79",
+    "CityName": "Yavatmal",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "PB-BA-80",
+    "CityName": "Barnala",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "AS-NA-81",
+    "CityName": "Nagaon",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "AP-NA-82",
+    "CityName": "Narasaraopet",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "CG-RA-83",
+    "CityName": "Raigarh",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "UK-RO-84",
+    "CityName": "Roorkee",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "GJ-VA-85",
+    "CityName": "Valsad",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "CG-AM-86",
+    "CityName": "Ambikapur",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "JH-GI-87",
+    "CityName": "Giridih",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "UP-CH-88",
+    "CityName": "Chandausi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "WB-PU-89",
+    "CityName": "Purulia",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "GJ-PA-90",
+    "CityName": "Patan",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "BR-BA-91",
+    "CityName": "Bagaha",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UP-HA-92",
+    "CityName": "Hardoi ",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-AC-93",
+    "CityName": "Achalpur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MH-OS-94",
+    "CityName": "Osmanabad",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-DE-95",
+    "CityName": "Deesa",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MH-NA-96",
+    "CityName": "Nandurbar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-AZ-97",
+    "CityName": "Azamgarh",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "JH-RA-98",
+    "CityName": "Ramgarh",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "PB-FI-99",
+    "CityName": "Firozpur",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "OD-BA-00",
+    "CityName": "Baripada Town",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KA-KA-01",
+    "CityName": "Karwar",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "BR-SI-02",
+    "CityName": "Siwan",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "AP-RA-03",
+    "CityName": "Rajampet",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-PU-04",
+    "CityName": "Pudukkottai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "JK-AN-05",
+    "CityName": "Anantnag",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "AP-TA-06",
+    "CityName": "Tadpatri",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MH-SA-07",
+    "CityName": "Satara",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "OD-BH-08",
+    "CityName": "Bhadrak",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "BR-KI-09",
+    "CityName": "Kishanganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TE-SU-10",
+    "CityName": "Suryapet",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "MH-WA-11",
+    "CityName": "Wardha",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KA-RA-12",
+    "CityName": "Ranebennuru",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "GJ-AM-13",
+    "CityName": "Amreli",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TN-NE-14",
+    "CityName": "Neyveli (TS)",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "BR-JA-15",
+    "CityName": "Jamalpur",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "GA-MA-16",
+    "CityName": "Marmagao",
+    "StateName": "Goa"
+  },
+  {
+    "StationID": "MH-UD-17",
+    "CityName": "Udgir",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AP-TA-18",
+    "CityName": "Tadepalligudem",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-NA-19",
+    "CityName": "Nagapattinam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "BR-BU-20",
+    "CityName": "Buxar",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MH-AU-21",
+    "CityName": "Aurangabad",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-JE-22",
+    "CityName": "Jehanabad",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "PB-PH-23",
+    "CityName": "Phagwara",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-KH-24",
+    "CityName": "Khair",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-SA-25",
+    "CityName": "Sawai Madhopur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "PB-KA-26",
+    "CityName": "Kapurthala",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "AP-CH-27",
+    "CityName": "Chilakaluripet",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "BR-AU-28",
+    "CityName": "Aurangabad",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "KL-MA-29",
+    "CityName": "Malappuram",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "HR-RE-30",
+    "CityName": "Rewari",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "RJ-NA-31",
+    "CityName": "Nagaur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "UP-SU-32",
+    "CityName": "Sultanpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MP-NA-33",
+    "CityName": "Nagda",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "AN-PO-34",
+    "CityName": "Port Blair",
+    "StateName": "Andaman and Nicobar Islands"
+  },
+  {
+    "StationID": "BR-LA-35",
+    "CityName": "Lakhisarai",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "GA-PA-36",
+    "CityName": "Panaji",
+    "StateName": "Goa"
+  },
+  {
+    "StationID": "AS-TI-37",
+    "CityName": "Tinsukia",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "MP-IT-38",
+    "CityName": "Itarsi",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "NL-KO-39",
+    "CityName": "Kohima",
+    "StateName": "Nagaland"
+  },
+  {
+    "StationID": "OD-BA-40",
+    "CityName": "Balangir",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "BR-NA-41",
+    "CityName": "Nawada",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "OD-JH-42",
+    "CityName": "Jharsuguda",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "TE-JA-43",
+    "CityName": "Jagtial",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "TN-VI-44",
+    "CityName": "Viluppuram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-AM-45",
+    "CityName": "Amalner",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "PB-ZI-46",
+    "CityName": "Zirakpur",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-TA-47",
+    "CityName": "Tanda",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-TI-48",
+    "CityName": "Tiruchengode",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-NA-49",
+    "CityName": "Nagina",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "AP-YE-50",
+    "CityName": "Yemmiganur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-VA-51",
+    "CityName": "Vaniyambadi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-SA-52",
+    "CityName": "Sarni",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-TH-53",
+    "CityName": "Theni Allinagaram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "GA-MA-54",
+    "CityName": "Margao",
+    "StateName": "Goa"
+  },
+  {
+    "StationID": "MH-AK-55",
+    "CityName": "Akot",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MP-SE-56",
+    "CityName": "Sehore",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-MH-57",
+    "CityName": "Mhow Cantonment",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "PB-KO-58",
+    "CityName": "Kot Kapura",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "RJ-MA-59",
+    "CityName": "Makrana",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-PA-60",
+    "CityName": "Pandharpur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TE-MI-61",
+    "CityName": "Miryalaguda",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "UP-SH-62",
+    "CityName": "Shamli",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MP-SE-63",
+    "CityName": "Seoni",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "KA-RB-64",
+    "CityName": "Ranibennur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "AP-KA-65",
+    "CityName": "Kadiri",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MH-SH-66",
+    "CityName": "Shrirampur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UK-RU-67",
+    "CityName": "Rudrapur",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "MH-PA-68",
+    "CityName": "Parli",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-NA-69",
+    "CityName": "Najibabad",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TE-NI-70",
+    "CityName": "Nirmal",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "TN-UD-71",
+    "CityName": "Udhagamandalam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-SH-72",
+    "CityName": "Shikohabad",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "JH-JH-73",
+    "CityName": "Jhumri Tilaiya",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "TN-AR-74",
+    "CityName": "Aruppukkottai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KL-PO-75",
+    "CityName": "Ponnani",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "BR-JA-76",
+    "CityName": "Jamui",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "BR-SI-77",
+    "CityName": "Sitamarhi",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "AP-CH-78",
+    "CityName": "Chirala",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "GJ-AN-79",
+    "CityName": "Anjar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "PU-KA-80",
+    "CityName": "Karaikal",
+    "StateName": "Puducherry"
+  },
+  {
+    "StationID": "HR-HA-81",
+    "CityName": "Hansi",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "AP-AN-82",
+    "CityName": "Anakapalle",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "CG-MA-83",
+    "CityName": "Mahasamund",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "PB-FA-84",
+    "CityName": "Faridkot",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "JH-SA-85",
+    "CityName": "Saunda",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "GJ-DH-86",
+    "CityName": "Dhoraji",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TN-PA-87",
+    "CityName": "Paramakudi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-BA-88",
+    "CityName": "Balaghat",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "RJ-SU-89",
+    "CityName": "Sujangarh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "GJ-KH-90",
+    "CityName": "Khambhat",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "PB-MU-91",
+    "CityName": "Muktsar",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "PB-RA-92",
+    "CityName": "Rajpura",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "AP-KA-93",
+    "CityName": "Kavali",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "CG-DH-94",
+    "CityName": "Dhamtari",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "MP-AS-95",
+    "CityName": "Ashok Nagar",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "RJ-SA-96",
+    "CityName": "Sardarshahar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "GJ-MA-97",
+    "CityName": "Mahuva",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "OD-BA-98",
+    "CityName": "Bargarh",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "TE-KA-99",
+    "CityName": "Kamareddy",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "JH-SA-00",
+    "CityName": "Sahibganj",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "TE-KO-01",
+    "CityName": "Kothagudem",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "KA-RA-02",
+    "CityName": "Ramanagaram",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KA-GO-03",
+    "CityName": "Gokak",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MP-TI-04",
+    "CityName": "Tikamgarh",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "BR-AR-05",
+    "CityName": "Araria",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UK-RI-06",
+    "CityName": "Rishikesh",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "MP-SH-07",
+    "CityName": "Shahdol",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "JH-ME-08",
+    "CityName": "Medininagar (Daltonganj)",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "TN-AR-09",
+    "CityName": "Arakkonam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-WA-10",
+    "CityName": "Washim",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "PB-SA-11",
+    "CityName": "Sangrur",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "TE-BO-12",
+    "CityName": "Bodhan",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "PB-FA-13",
+    "CityName": "Fazilka",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "AP-PA-14",
+    "CityName": "Palacole",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "GJ-KE-15",
+    "CityName": "Keshod",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-SU-16",
+    "CityName": "Sullurpeta",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "GJ-WA-17",
+    "CityName": "Wadhwan",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "PB-GU-18",
+    "CityName": "Gurdaspur",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "KL-VA-19",
+    "CityName": "Vatakara",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "ML-TU-20",
+    "CityName": "Tura",
+    "StateName": "Meghalaya"
+  },
+  {
+    "StationID": "HR-NA-21",
+    "CityName": "Narnaul",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "PB-KH-22",
+    "CityName": "Kharar",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "KA-YA-23",
+    "CityName": "Yadgir",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-AM-24",
+    "CityName": "Ambejogai",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-AN-25",
+    "CityName": "Ankleshwar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "GJ-SA-26",
+    "CityName": "Savarkundla",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "OD-PA-27",
+    "CityName": "Paradip",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "TN-VI-28",
+    "CityName": "Virudhachalam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KL-KA-29",
+    "CityName": "Kanhangad",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "GJ-KA-30",
+    "CityName": "Kadi",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TN-SR-31",
+    "CityName": "Srivilliputhur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "PB-GO-32",
+    "CityName": "Gobindgarh",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "TN-TI-33",
+    "CityName": "Tindivanam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "PB-MA-34",
+    "CityName": "Mansa",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "KL-TA-35",
+    "CityName": "Taliparamba",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MH-MA-36",
+    "CityName": "Manmad",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AP-TA-37",
+    "CityName": "Tanuku",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "AP-RA-38",
+    "CityName": "Rayachoti",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-VI-39",
+    "CityName": "Virudhunagar",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KL-KO-40",
+    "CityName": "Koyilandy",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "AS-JO-41",
+    "CityName": "Jorhat",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "TN-KA-42",
+    "CityName": "Karur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-VA-43",
+    "CityName": "Valparai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "AP-SR-44",
+    "CityName": "Srikalahasti",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KL-NE-45",
+    "CityName": "Neyyattinkara",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "AP-BA-46",
+    "CityName": "Bapatla",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "HR-FA-47",
+    "CityName": "Fatehabad",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "PB-MA-48",
+    "CityName": "Malout",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "TN-SA-49",
+    "CityName": "Sankarankovil",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-TE-50",
+    "CityName": "Tenkasi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-RA-51",
+    "CityName": "Ratnagiri",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KA-RA-52",
+    "CityName": "Rabkavi Banhatti",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "UP-SI-53",
+    "CityName": "Sikandrabad",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "JH-CH-54",
+    "CityName": "Chaibasa",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "CG-CH-55",
+    "CityName": "Chirmiri",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "TE-PA-56",
+    "CityName": "Palwancha",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "OD-BH-57",
+    "CityName": "Bhawanipatna",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KL-KA-58",
+    "CityName": "Kayamkulam",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MP-PI-59",
+    "CityName": "Pithampur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "PB-NA-60",
+    "CityName": "Nabha",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-SH-61",
+    "CityName": "Shahabad, Hardoi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "OD-DH-62",
+    "CityName": "Dhenkanal",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "MH-UR-63",
+    "CityName": "Uran Islampur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-GO-64",
+    "CityName": "Gopalganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "AS-BO-65",
+    "CityName": "Bongaigaon City",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "TN-PA-66",
+    "CityName": "Palani",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-PU-67",
+    "CityName": "Pusad",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "JK-SO-68",
+    "CityName": "Sopore",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "UP-PI-69",
+    "CityName": "Pilkhuwa",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "PB-TA-70",
+    "CityName": "Tarn Taran",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-RE-71",
+    "CityName": "Renukoot",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TE-MA-72",
+    "CityName": "Mandamarri",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "KA-SH-73",
+    "CityName": "Shahabad",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "OD-BA-74",
+    "CityName": "Barbil",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "TE-KO-75",
+    "CityName": "Koratla",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "BR-MA-76",
+    "CityName": "Madhubani",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "WB-AR-77",
+    "CityName": "Arambagh",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "HR-GO-78",
+    "CityName": "Gohana",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "RJ-LA-79",
+    "CityName": "Ladnu",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-PA-80",
+    "CityName": "Pattukkottai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KA-SI-81",
+    "CityName": "Sirsi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TE-SI-82",
+    "CityName": "Sircilla",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "WB-TA-83",
+    "CityName": "Tamluk",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "PB-JA-84",
+    "CityName": "Jagraon",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "WB-AL-85",
+    "CityName": "AlipurdUrban Agglomerationr",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MP-AL-86",
+    "CityName": "Alirajpur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TE-TA-87",
+    "CityName": "Tandur",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "AP-NA-88",
+    "CityName": "Naidupet",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-TI-89",
+    "CityName": "Tirupathur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "HR-TO-90",
+    "CityName": "Tohana",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "RJ-RA-91",
+    "CityName": "Ratangarh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "AS-DH-92",
+    "CityName": "Dhubri",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "BR-MA-93",
+    "CityName": "Masaurhi",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "GJ-VI-94",
+    "CityName": "Visnagar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-VR-95",
+    "CityName": "Vrindavan",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-NO-96",
+    "CityName": "Nokha",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "AP-NA-97",
+    "CityName": "Nagari",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "HR-NA-98",
+    "CityName": "Narwana",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "TN-RA-99",
+    "CityName": "Ramanathapuram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-UJ-00",
+    "CityName": "Ujhani",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "BR-SA-01",
+    "CityName": "Samastipur",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UP-LA-02",
+    "CityName": "Laharpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-SA-03",
+    "CityName": "Sangamner",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-NI-04",
+    "CityName": "Nimbahera",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TE-SI-05",
+    "CityName": "Siddipet",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "WB-SU-06",
+    "CityName": "Suri",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "AS-DI-07",
+    "CityName": "Diphu",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "WB-JH-08",
+    "CityName": "Jhargram",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MH-SH-09",
+    "CityName": "Shirpur-Warwade",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-TI-10",
+    "CityName": "Tilhar",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-SI-11",
+    "CityName": "Sindhnur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-UD-12",
+    "CityName": "Udumalaipettai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-MA-13",
+    "CityName": "Malkapur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TE-WA-14",
+    "CityName": "Wanaparthy",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "AP-GU-15",
+    "CityName": "Gudur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "OD-KE-16",
+    "CityName": "Kendujhar",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "MP-MA-17",
+    "CityName": "Mandla",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "HP-MA-18",
+    "CityName": "Mandi",
+    "StateName": "Himachal Pradesh"
+  },
+  {
+    "StationID": "KL-NE-19",
+    "CityName": "Nedumangad",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "AS-NO-20",
+    "CityName": "North Lakhimpur",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "AP-VI-21",
+    "CityName": "Vinukonda",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KA-TI-22",
+    "CityName": "Tiptur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-GO-23",
+    "CityName": "Gobichettipalayam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "OD-SU-24",
+    "CityName": "Sunabeda",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "MH-WA-25",
+    "CityName": "Wani",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-UP-26",
+    "CityName": "Upleta",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-NA-27",
+    "CityName": "Narasapuram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "AP-NU-28",
+    "CityName": "Nuzvid",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "AS-TE-29",
+    "CityName": "Tezpur",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "GJ-UN-30",
+    "CityName": "Una",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-MA-31",
+    "CityName": "Markapur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MP-SH-32",
+    "CityName": "Sheopur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-TH-33",
+    "CityName": "Thiruvarur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "GJ-SI-34",
+    "CityName": "Sidhpur",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-SA-35",
+    "CityName": "Sahaswan",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-SU-36",
+    "CityName": "Suratgarh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MP-SH-37",
+    "CityName": "Shajapur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "OD-RA-38",
+    "CityName": "Rayagada",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "MH-LO-39",
+    "CityName": "Lonavla",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AP-PO-40",
+    "CityName": "Ponnur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TE-KA-41",
+    "CityName": "Kagaznagar",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "TE-GA-42",
+    "CityName": "Gadwal",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "CG-BH-43",
+    "CityName": "Bhatapara",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "AP-KA-44",
+    "CityName": "Kandukur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TE-SA-45",
+    "CityName": "Sangareddy",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "GJ-UN-46",
+    "CityName": "Unjha",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MZ-LU-47",
+    "CityName": "Lunglei",
+    "StateName": "Mizoram"
+  },
+  {
+    "StationID": "AS-KA-48",
+    "CityName": "Karimganj",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "KL-KA-49",
+    "CityName": "Kannur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "AP-BO-50",
+    "CityName": "Bobbili",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "BR-MO-51",
+    "CityName": "Mokameh",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MH-TA-52",
+    "CityName": "Talegaon Dabhade",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MH-AN-53",
+    "CityName": "Anjangaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-MA-54",
+    "CityName": "Mangrol",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "PB-SU-55",
+    "CityName": "Sunam",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "WB-GA-56",
+    "CityName": "Gangarampur",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "TN-TH-57",
+    "CityName": "Thiruvallur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KL-TI-58",
+    "CityName": "Tirur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "UP-RA-59",
+    "CityName": "Rath",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "OD-JA-60",
+    "CityName": "Jatani",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "GJ-VI-61",
+    "CityName": "Viramgam",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "RJ-RA-62",
+    "CityName": "Rajsamand",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "PU-YA-63",
+    "CityName": "Yanam",
+    "StateName": "Puducherry"
+  },
+  {
+    "StationID": "KL-KO-64",
+    "CityName": "Kottayam",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "TN-PA-65",
+    "CityName": "Panruti",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "PB-DH-66",
+    "CityName": "Dhuri",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "TN-NA-67",
+    "CityName": "Namakkal",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KL-KA-68",
+    "CityName": "Kasaragod",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "GJ-MO-69",
+    "CityName": "Modasa",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-RA-70",
+    "CityName": "Rayadurg",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "BR-SU-71",
+    "CityName": "Supaul",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "KL-KU-72",
+    "CityName": "Kunnamkulam",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MH-UM-73",
+    "CityName": "Umred",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TE-BE-74",
+    "CityName": "Bellampalle",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "AS-SI-75",
+    "CityName": "Sibsagar",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "HR-MA-76",
+    "CityName": "Mandi Dabwali",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "KL-OT-77",
+    "CityName": "Ottappalam",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "BR-DU-78",
+    "CityName": "Dumraon",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "AP-SA-79",
+    "CityName": "Samalkot",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "AP-JA-80",
+    "CityName": "Jaggaiahpet",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "AS-GO-81",
+    "CityName": "Goalpara",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "AP-TU-82",
+    "CityName": "Tuni",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "RJ-LA-83",
+    "CityName": "Lachhmangarh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TE-BH-84",
+    "CityName": "Bhongir",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "AP-AM-85",
+    "CityName": "Amalapuram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "PB-FI-86",
+    "CityName": "Firozpur Cantt.",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "TE-VI-87",
+    "CityName": "Vikarabad",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "KL-TH-88",
+    "CityName": "Thiruvalla",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "UP-SH-89",
+    "CityName": "Sherkot",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-PA-90",
+    "CityName": "Palghar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MH-SH-91",
+    "CityName": "Shegaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TE-JA-92",
+    "CityName": "Jangaon",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "AP-BH-93",
+    "CityName": "Bheemunipatnam",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MP-PA-94",
+    "CityName": "Panna",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "KL-TH-95",
+    "CityName": "Thodupuzha",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "JK-KA-96",
+    "CityName": "KathUrban Agglomeration",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "GJ-PA-97",
+    "CityName": "Palitana",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "BR-AR-98",
+    "CityName": "Arwal",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "AP-VE-99",
+    "CityName": "Venkatagiri",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "UP-KA-00",
+    "CityName": "Kalpi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-RA-01",
+    "CityName": "Rajgarh (Churu)",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "AP-SA-02",
+    "CityName": "Sattenapalle",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KA-AR-03",
+    "CityName": "Arsikere",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-OZ-04",
+    "CityName": "Ozar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TN-TH-05",
+    "CityName": "Thirumangalam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "GJ-PE-06",
+    "CityName": "Petlad",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "RJ-NA-07",
+    "CityName": "Nasirabad",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-PH-08",
+    "CityName": "Phaltan",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "WB-RA-09",
+    "CityName": "Rampurhat",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-NA-10",
+    "CityName": "Nanjangud",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "BR-FO-11",
+    "CityName": "Forbesganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UP-TU-12",
+    "CityName": "Tundla",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "BR-BH-13",
+    "CityName": "BhabUrban Agglomeration",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "KA-SA-14",
+    "CityName": "Sagara",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "AP-PI-15",
+    "CityName": "Pithapuram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KA-SI-16",
+    "CityName": "Sira",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TE-BH-17",
+    "CityName": "Bhadrachalam",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "HR-CH-18",
+    "CityName": "Charkhi Dadri",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "JH-CH-19",
+    "CityName": "Chatra",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "AP-PA-20",
+    "CityName": "Palasa Kasibugga",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "RJ-NO-21",
+    "CityName": "Nohar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-YE-22",
+    "CityName": "Yevla",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "PB-SI-23",
+    "CityName": "Sirhind Fatehgarh Sahib",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "TE-BH-24",
+    "CityName": "Bhainsa",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "AP-PA-25",
+    "CityName": "Parvathipuram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MH-SH-26",
+    "CityName": "Shahade",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KL-CH-27",
+    "CityName": "Chalakudy",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "BR-NA-28",
+    "CityName": "Narkatiaganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "GJ-KA-29",
+    "CityName": "Kapadvanj",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-MA-30",
+    "CityName": "Macherla",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MP-RA-31",
+    "CityName": "Raghogarh-Vijaypur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "PB-RU-32",
+    "CityName": "Rupnagar",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "BR-NA-33",
+    "CityName": "Naugachhia",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MP-SE-34",
+    "CityName": "Sendhwa",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "OD-BY-35",
+    "CityName": "Byasanagar",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "UP-SA-36",
+    "CityName": "Sandila",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "AP-GO-37",
+    "CityName": "Gooty",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "AP-SA-38",
+    "CityName": "Salur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "UP-NA-39",
+    "CityName": "Nanpara",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-SA-40",
+    "CityName": "Sardhana",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-VI-41",
+    "CityName": "Vita",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "JH-GU-42",
+    "CityName": "Gumia",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "KA-PU-43",
+    "CityName": "Puttur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "PB-JA-44",
+    "CityName": "Jalandhar Cantt.",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-NE-45",
+    "CityName": "Nehtaur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KL-CH-46",
+    "CityName": "Changanassery",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "AP-MA-47",
+    "CityName": "Mandapeta",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "JH-DU-48",
+    "CityName": "Dumka",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "UP-SE-49",
+    "CityName": "Seohara",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-UM-50",
+    "CityName": "Umarkhed",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "JH-MA-51",
+    "CityName": "Madhupur",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "TN-VI-52",
+    "CityName": "Vikramasingapuram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KL-PU-53",
+    "CityName": "Punalur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "OD-KE-54",
+    "CityName": "Kendrapara",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "GJ-SI-55",
+    "CityName": "Sihor",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TN-NE-56",
+    "CityName": "Nellikuppam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "PB-SA-57",
+    "CityName": "Samana",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "MH-WA-58",
+    "CityName": "Warora",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KL-NI-59",
+    "CityName": "Nilambur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "TN-RA-60",
+    "CityName": "Rasipuram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UK-RA-61",
+    "CityName": "Ramnagar",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "AP-JA-62",
+    "CityName": "Jammalamadugu",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "PB-NA-63",
+    "CityName": "Nawanshahr",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "MN-TH-64",
+    "CityName": "Thoubal",
+    "StateName": "Manipur"
+  },
+  {
+    "StationID": "KA-AT-65",
+    "CityName": "Athni",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KL-CH-66",
+    "CityName": "Cherthala",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MP-SI-67",
+    "CityName": "Sidhi",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TE-FA-68",
+    "CityName": "Farooqnagar",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "AP-PE-69",
+    "CityName": "Peddapuram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "JH-CH-70",
+    "CityName": "Chirkunda",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "MH-PA-71",
+    "CityName": "Pachora",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-MA-72",
+    "CityName": "Madhepura",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UK-PI-73",
+    "CityName": "Pithoragarh",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "MH-TU-74",
+    "CityName": "Tumsar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-PH-75",
+    "CityName": "Phalodi",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-TI-76",
+    "CityName": "Tiruttani",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "PB-RA-77",
+    "CityName": "Rampura Phul",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "KL-PE-78",
+    "CityName": "Perinthalmanna",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "UP-PA-79",
+    "CityName": "Padrauna",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MP-PI-80",
+    "CityName": "Pipariya",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "CG-DA-81",
+    "CityName": "Dalli-Rajhara",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "AP-PU-82",
+    "CityName": "Punganur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KL-MA-83",
+    "CityName": "Mattannur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "UP-MA-84",
+    "CityName": "Mathura",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-TH-85",
+    "CityName": "Thakurdwara",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-NA-86",
+    "CityName": "Nandivaram-Guduvancheri",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KA-MU-87",
+    "CityName": "Mulbagal",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-MA-88",
+    "CityName": "Manjlegaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-WA-89",
+    "CityName": "Wankaner",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MH-SI-90",
+    "CityName": "Sillod",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AP-NI-91",
+    "CityName": "Nidadavole",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KA-SU-92",
+    "CityName": "Surapura",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "OD-RA-93",
+    "CityName": "Rajagangapur",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "BR-SH-94",
+    "CityName": "Sheikhpura",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "OD-PA-95",
+    "CityName": "Parlakhemundi",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "WB-KA-96",
+    "CityName": "Kalimpong",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-SI-97",
+    "CityName": "Siruguppa",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-AR-98",
+    "CityName": "Arvi",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-LI-99",
+    "CityName": "Limbdi",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AS-BA-00",
+    "CityName": "Barpeta",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "UK-MA-01",
+    "CityName": "Manglaur",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "AP-RE-02",
+    "CityName": "Repalle",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KA-MU-03",
+    "CityName": "Mudhol",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MP-SH-04",
+    "CityName": "Shujalpur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "GJ-MA-05",
+    "CityName": "Mandvi",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "GJ-TH-06",
+    "CityName": "Thangadh",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MP-SI-07",
+    "CityName": "Sironj",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-NA-08",
+    "CityName": "Nandura",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KL-SH-09",
+    "CityName": "Shoranur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "RJ-NA-10",
+    "CityName": "Nathdwara",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-PE-11",
+    "CityName": "Periyakulam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "BR-SU-12",
+    "CityName": "Sultanganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TE-ME-13",
+    "CityName": "Medak",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "TE-NA-14",
+    "CityName": "Narayanpet",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "BR-RA-15",
+    "CityName": "Raxaul Bazar",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "JK-RA-16",
+    "CityName": "Rajauri",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "TN-PE-17",
+    "CityName": "Pernampattu",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UK-NA-18",
+    "CityName": "Nainital",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "AP-RA-19",
+    "CityName": "Ramachandrapuram",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MH-VA-20",
+    "CityName": "Vaijapur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "PB-NA-21",
+    "CityName": "Nangal",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "KA-SI-22",
+    "CityName": "Sidlaghatta",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "JK-PU-23",
+    "CityName": "Punch",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "MP-PA-24",
+    "CityName": "Pandhurna",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-WA-25",
+    "CityName": "Wadgaon Road",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "OD-TA-26",
+    "CityName": "Talcher",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KL-VA-27",
+    "CityName": "Varkala",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "RJ-PI-28",
+    "CityName": "Pilani",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MP-NO-29",
+    "CityName": "Nowgong",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "CG-NA-30",
+    "CityName": "Naila Janjgir",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "GA-MA-31",
+    "CityName": "Mapusa",
+    "StateName": "Goa"
+  },
+  {
+    "StationID": "TN-VE-32",
+    "CityName": "Vellakoil",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "RJ-ME-33",
+    "CityName": "Merta City",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-SI-34",
+    "CityName": "Sivaganga",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-MA-35",
+    "CityName": "Mandideep",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-SA-36",
+    "CityName": "Sailu",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-VY-37",
+    "CityName": "Vyara",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-KO-38",
+    "CityName": "Kovvur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-VA-39",
+    "CityName": "Vadalur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-NA-40",
+    "CityName": "Nawabganj",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "GJ-PA-41",
+    "CityName": "Padra",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "WB-SA-42",
+    "CityName": "Sainthia",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "UP-SI-43",
+    "CityName": "Siana",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-SH-44",
+    "CityName": "Shahpur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "RJ-SO-45",
+    "CityName": "Sojat",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "UP-NO-46",
+    "CityName": "Noorpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KL-PA-47",
+    "CityName": "Paravoor",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MH-MU-48",
+    "CityName": "Murtijapur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-RA-49",
+    "CityName": "Ramnagar",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "OD-SU-50",
+    "CityName": "Sundargarh",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "WB-TA-51",
+    "CityName": "Taki",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-SA-52",
+    "CityName": "Saundatti-Yellamma",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KL-PA-53",
+    "CityName": "Pathanamthitta",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "KA-WA-54",
+    "CityName": "Wadi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-RA-55",
+    "CityName": "Rameshwaram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-TA-56",
+    "CityName": "Tasgaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-SI-57",
+    "CityName": "Sikandra Rao",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MP-SI-58",
+    "CityName": "Sihora",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-TI-59",
+    "CityName": "Tiruvethipuram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "AP-TI-60",
+    "CityName": "Tiruvuru",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MH-ME-61",
+    "CityName": "Mehkar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KL-PE-62",
+    "CityName": "Peringathur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "TN-PE-63",
+    "CityName": "Perambalur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KA-MA-64",
+    "CityName": "Manvi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "NL-ZU-65",
+    "CityName": "Zunheboto",
+    "StateName": "Nagaland"
+  },
+  {
+    "StationID": "BR-MA-66",
+    "CityName": "Mahnar Bazar",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "KL-AT-67",
+    "CityName": "Attingal",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "HR-SH-68",
+    "CityName": "Shahbad",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "UP-PU-69",
+    "CityName": "Puranpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-NE-70",
+    "CityName": "Nelamangala",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "PB-NA-71",
+    "CityName": "Nakodar",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "GJ-LU-72",
+    "CityName": "Lunawada",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "WB-MU-73",
+    "CityName": "Murshidabad",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "PU-MA-74",
+    "CityName": "Mahe",
+    "StateName": "Puducherry"
+  },
+  {
+    "StationID": "AS-LA-75",
+    "CityName": "Lanka",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "UP-RU-76",
+    "CityName": "Rudauli",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "NL-TU-77",
+    "CityName": "Tuensang",
+    "StateName": "Nagaland"
+  },
+  {
+    "StationID": "KA-LA-78",
+    "CityName": "Lakshmeshwar",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "PB-ZI-79",
+    "CityName": "Zira",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "MH-YA-80",
+    "CityName": "Yawal",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-TH-81",
+    "CityName": "Thana Bhawan",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-RA-82",
+    "CityName": "Ramdurg",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-PU-83",
+    "CityName": "Pulgaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TE-SA-84",
+    "CityName": "Sadasivpet",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "KA-NA-85",
+    "CityName": "Nargund",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "RJ-NE-86",
+    "CityName": "Neem-Ka-Thana",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "WB-ME-87",
+    "CityName": "Memari",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MH-NI-88",
+    "CityName": "Nilanga",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AR-NA-89",
+    "CityName": "Naharlagun",
+    "StateName": "Arunachal Pradesh"
+  },
+  {
+    "StationID": "JH-PA-90",
+    "CityName": "Pakaur",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "MH-WA-91",
+    "CityName": "Wai",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KA-TA-92",
+    "CityName": "Tarikere",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KA-MA-93",
+    "CityName": "Malavalli",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MP-RA-94",
+    "CityName": "Raisen",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-LA-95",
+    "CityName": "Lahar",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "AP-UR-96",
+    "CityName": "Uravakonda",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KA-SA-97",
+    "CityName": "Savanur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "RJ-SI-98",
+    "CityName": "Sirohi",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "JK-UD-99",
+    "CityName": "Udhampur",
+    "StateName": "Jammu and Kashmir"
+  },
+  {
+    "StationID": "MH-UM-00",
+    "CityName": "Umarga",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-PR-01",
+    "CityName": "Pratapgarh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "KA-LI-02",
+    "CityName": "Lingsugur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-US-03",
+    "CityName": "Usilampatti",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-PA-04",
+    "CityName": "Palia Kalan",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "NL-WO-05",
+    "CityName": "Wokha",
+    "StateName": "Nagaland"
+  },
+  {
+    "StationID": "GJ-RA-06",
+    "CityName": "Rajpipla",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "KA-VI-07",
+    "CityName": "Vijayapura",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "RJ-RA-08",
+    "CityName": "Rawatbhata",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "RJ-SA-09",
+    "CityName": "Sangaria",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-PA-10",
+    "CityName": "Paithan",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MH-RA-11",
+    "CityName": "Rahuri",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "PB-PA-12",
+    "CityName": "Patti",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-ZA-13",
+    "CityName": "Zaidpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-LA-14",
+    "CityName": "Lalsot",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MP-MA-15",
+    "CityName": "Maihar",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-VE-16",
+    "CityName": "Vedaranyam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-NA-17",
+    "CityName": "Nawapur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "HP-SO-18",
+    "CityName": "Solan",
+    "StateName": "Himachal Pradesh"
+  },
+  {
+    "StationID": "GJ-VA-19",
+    "CityName": "Vapi",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MP-SA-20",
+    "CityName": "Sanawad",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "BR-WA-21",
+    "CityName": "Warisaliganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "BR-RE-22",
+    "CityName": "Revelganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MP-SA-23",
+    "CityName": "Sabalgarh",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-TU-24",
+    "CityName": "Tuljapur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "JH-SI-25",
+    "CityName": "Simdega",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "JH-MU-26",
+    "CityName": "Musabani",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "KL-KO-27",
+    "CityName": "Kodungallur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "OD-PH-28",
+    "CityName": "Phulabani",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "GJ-UM-29",
+    "CityName": "Umreth",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-NA-30",
+    "CityName": "Narsipatnam",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "UP-NA-31",
+    "CityName": "Nautanwa",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "BR-RA-32",
+    "CityName": "Rajgir",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TE-YE-33",
+    "CityName": "Yellandu",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "TN-SA-34",
+    "CityName": "Sathyamangalam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "RJ-PI-35",
+    "CityName": "Pilibanga",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-MO-36",
+    "CityName": "Morshi",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "HR-PE-37",
+    "CityName": "Pehowa",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "BR-SO-38",
+    "CityName": "Sonepur",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "KL-PA-39",
+    "CityName": "Pappinisseri",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "UP-ZA-40",
+    "CityName": "Zamania",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "JH-MI-41",
+    "CityName": "Mihijam",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "MH-PU-42",
+    "CityName": "Purna",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TN-PU-43",
+    "CityName": "Puliyankudi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-SH-44",
+    "CityName": "Shikarpur, Bulandshahr",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MP-UM-45",
+    "CityName": "Umaria",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-PO-46",
+    "CityName": "Porsa",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "UP-NA-47",
+    "CityName": "Naugawan Sadat",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-FA-48",
+    "CityName": "Fatehpur Sikri",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TE-MA-49",
+    "CityName": "Manuguru",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "TR-UD-50",
+    "CityName": "Udaipur",
+    "StateName": "Tripura"
+  },
+  {
+    "StationID": "RJ-PI-51",
+    "CityName": "Pipar City",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "OD-PA-52",
+    "CityName": "Pattamundai",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "TN-NA-53",
+    "CityName": "Nanjikottai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "RJ-TA-54",
+    "CityName": "Taranagar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "AP-YE-55",
+    "CityName": "Yerraguntla",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "MH-SA-56",
+    "CityName": "Satana",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-SH-57",
+    "CityName": "Sherghati",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "KA-SA-58",
+    "CityName": "Sankeshwara",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KA-MA-59",
+    "CityName": "Madikeri",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-TH-60",
+    "CityName": "Thuraiyur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "GJ-SA-61",
+    "CityName": "Sanand",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "GJ-RA-62",
+    "CityName": "Rajula",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TE-KY-63",
+    "CityName": "Kyathampalle",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "UP-SH-64",
+    "CityName": "Shahabad, Rampur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "CG-TI-65",
+    "CityName": "Tilda Newra",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "MP-NA-66",
+    "CityName": "Narsinghgarh",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "KL-CH-67",
+    "CityName": "Chittur-Thathamangalam",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MP-MA-68",
+    "CityName": "Malaj Khand",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-SA-69",
+    "CityName": "Sarangpur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "UP-RO-70",
+    "CityName": "Robertsganj",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-SI-71",
+    "CityName": "Sirkali",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "GJ-RA-72",
+    "CityName": "Radhanpur",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TN-TI-73",
+    "CityName": "Tiruchendur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-UT-74",
+    "CityName": "Utraula",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "JH-PA-75",
+    "CityName": "Patratu",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "RJ-VI-76",
+    "CityName": "Vijainagar, Ajmer",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-PE-77",
+    "CityName": "Periyasemur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-PA-78",
+    "CityName": "Pathri",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-SA-79",
+    "CityName": "Sadabad",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-TA-80",
+    "CityName": "Talikota",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-SI-81",
+    "CityName": "Sinnar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "CG-MU-82",
+    "CityName": "Mungeli",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "KA-SE-83",
+    "CityName": "Sedam",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KA-SH-84",
+    "CityName": "Shikaripur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "RJ-SU-85",
+    "CityName": "Sumerpur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-SA-86",
+    "CityName": "Sattur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "BR-SU-87",
+    "CityName": "Sugauli",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "AS-LU-88",
+    "CityName": "Lumding",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "TN-VA-89",
+    "CityName": "Vandavasi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "OD-TI-90",
+    "CityName": "Titlagarh",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "MH-UC-91",
+    "CityName": "Uchgaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "NL-MO-92",
+    "CityName": "Mokokchung",
+    "StateName": "Nagaland"
+  },
+  {
+    "StationID": "WB-PA-93",
+    "CityName": "Paschim Punropara",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "RJ-SA-94",
+    "CityName": "Sagwara",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "RJ-RA-95",
+    "CityName": "Ramganj Mandi",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "WB-TA-96",
+    "CityName": "Tarakeswar",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-MA-97",
+    "CityName": "Mahalingapura",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TR-DH-98",
+    "CityName": "Dharmanagar",
+    "StateName": "Tripura"
+  },
+  {
+    "StationID": "GJ-MA-99",
+    "CityName": "Mahemdabad",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "CG-MA-00",
+    "CityName": "Manendragarh",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "MH-UR-01",
+    "CityName": "Uran",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TN-TH-02",
+    "CityName": "Tharamangalam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-TI-03",
+    "CityName": "Tirukkoyilur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-PE-04",
+    "CityName": "Pen",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-MA-05",
+    "CityName": "Makhdumpur",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "BR-MA-06",
+    "CityName": "Maner",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TN-OD-07",
+    "CityName": "Oddanchatram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-PA-08",
+    "CityName": "Palladam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-MU-09",
+    "CityName": "Mundi",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "OD-NA-10",
+    "CityName": "Nabarangapur",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KA-MU-11",
+    "CityName": "Mudalagi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "HR-SA-12",
+    "CityName": "Samalkha",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "MP-NE-13",
+    "CityName": "Nepanagar",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-KA-14",
+    "CityName": "Karjat",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-RA-15",
+    "CityName": "Ranavav",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "AP-PE-16",
+    "CityName": "Pedana",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "HR-PI-17",
+    "CityName": "Pinjore",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "RJ-LA-18",
+    "CityName": "Lakheri",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MP-PA-19",
+    "CityName": "Pasan",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "AP-PU-20",
+    "CityName": "Puttur",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "TN-VA-21",
+    "CityName": "Vadakkuvalliyur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-TI-22",
+    "CityName": "Tirukalukundram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-MA-23",
+    "CityName": "Mahidpur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "UK-MU-24",
+    "CityName": "Mussoorie",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "KL-MU-25",
+    "CityName": "Muvattupuzha",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "UP-RA-26",
+    "CityName": "Rasra",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-UD-27",
+    "CityName": "Udaipurwati",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-MA-28",
+    "CityName": "Manwath",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KL-AD-29",
+    "CityName": "Adoor",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "TN-UT-30",
+    "CityName": "Uthamapalayam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-PA-31",
+    "CityName": "Partur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "HP-NA-32",
+    "CityName": "Nahan",
+    "StateName": "Himachal Pradesh"
+  },
+  {
+    "StationID": "HR-LA-33",
+    "CityName": "Ladwa",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "AS-MA-34",
+    "CityName": "Mankachar",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "ML-NO-35",
+    "CityName": "Nongstoin",
+    "StateName": "Meghalaya"
+  },
+  {
+    "StationID": "RJ-LO-36",
+    "CityName": "Losal",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "RJ-SR-37",
+    "CityName": "Sri Madhopur",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "RJ-RA-38",
+    "CityName": "Ramngarh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "KL-MA-39",
+    "CityName": "Mavelikkara",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "RJ-RA-40",
+    "CityName": "Rawatsar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "RJ-RA-41",
+    "CityName": "Rajakhera",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "UP-LA-42",
+    "CityName": "Lar",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-LA-43",
+    "CityName": "Lal Gopalganj Nindaura",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-MU-44",
+    "CityName": "Muddebihal",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "UP-SI-45",
+    "CityName": "Sirsaganj",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-SH-46",
+    "CityName": "Shahpura",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-SU-47",
+    "CityName": "Surandai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-SA-48",
+    "CityName": "Sangole",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KA-PA-49",
+    "CityName": "Pavagada",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "GJ-TH-50",
+    "CityName": "Tharad",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "GJ-MA-51",
+    "CityName": "Mansa",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "GJ-UM-52",
+    "CityName": "Umbergaon",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "KL-MA-53",
+    "CityName": "Mavoor",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "AS-NA-54",
+    "CityName": "Nalbari",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "GJ-TA-55",
+    "CityName": "Talaja",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "KA-MA-56",
+    "CityName": "Malur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-MA-57",
+    "CityName": "Mangrulpir",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "OD-SO-58",
+    "CityName": "Soro",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "RJ-SH-59",
+    "CityName": "Shahpura",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "GJ-VA-60",
+    "CityName": "Vadnagar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "RJ-RA-61",
+    "CityName": "Raisinghnagar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "KA-SI-62",
+    "CityName": "Sindhagi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KA-SA-63",
+    "CityName": "Sanduru",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "HR-SO-64",
+    "CityName": "Sohna",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "GJ-MA-65",
+    "CityName": "Manavadar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-PI-66",
+    "CityName": "Pihani",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "HR-SA-67",
+    "CityName": "Safidon",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "MH-RI-68",
+    "CityName": "Risod",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-RO-69",
+    "CityName": "Rosera",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TN-SA-70",
+    "CityName": "Sankari",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "RJ-MA-71",
+    "CityName": "Malpura",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "WB-SO-72",
+    "CityName": "Sonamukhi",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "UP-SH-73",
+    "CityName": "Shamsabad, Agra",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "BR-NO-74",
+    "CityName": "Nokha",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "WB-PA-75",
+    "CityName": "PandUrban Agglomeration",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "WB-MA-76",
+    "CityName": "Mainaguri",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-AF-77",
+    "CityName": "Afzalpur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-SH-78",
+    "CityName": "Shirur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "GJ-SA-79",
+    "CityName": "Salaya",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TN-SH-80",
+    "CityName": "Shenkottai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TR-PR-81",
+    "CityName": "Pratapgarh",
+    "StateName": "Tripura"
+  },
+  {
+    "StationID": "TN-VA-82",
+    "CityName": "Vadipatti",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TE-NA-83",
+    "CityName": "Nagarkurnool",
+    "StateName": "Telangana"
+  },
+  {
+    "StationID": "MH-SA-84",
+    "CityName": "Savner",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MH-SA-85",
+    "CityName": "Sasvad",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-RU-86",
+    "CityName": "Rudrapur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-SO-87",
+    "CityName": "Soron",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-SH-88",
+    "CityName": "Sholingur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-PA-89",
+    "CityName": "Pandharkaoda",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KL-PE-90",
+    "CityName": "Perumbavoor",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "KA-MA-91",
+    "CityName": "Maddur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "RJ-NA-92",
+    "CityName": "Nadbai",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-TA-93",
+    "CityName": "Talode",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MH-SH-94",
+    "CityName": "Shrigonda",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "KA-MA-95",
+    "CityName": "Madhugiri",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "KA-TE-96",
+    "CityName": "Tekkalakote",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MP-SE-97",
+    "CityName": "Seoni-Malwa",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-SH-98",
+    "CityName": "Shirdi",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-SU-99",
+    "CityName": "SUrban Agglomerationr",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-TE-00",
+    "CityName": "Terdal",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-RA-01",
+    "CityName": "Raver",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TN-TI-02",
+    "CityName": "Tirupathur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "HR-TA-03",
+    "CityName": "Taraori",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "MH-MU-04",
+    "CityName": "Mukhed",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TN-MA-05",
+    "CityName": "Manachanallur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-RE-06",
+    "CityName": "Rehli",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "RJ-SA-07",
+    "CityName": "Sanchore",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-RA-08",
+    "CityName": "Rajura",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-PI-09",
+    "CityName": "Piro",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "KA-MU-10",
+    "CityName": "Mudabidri",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MH-VA-11",
+    "CityName": "Vadgaon Kasba",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-NA-12",
+    "CityName": "Nagar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "GJ-VI-13",
+    "CityName": "Vijapur",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "TN-VI-14",
+    "CityName": "Viswanatham",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-PO-15",
+    "CityName": "Polur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-PA-16",
+    "CityName": "Panagudi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-MA-17",
+    "CityName": "Manawar",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "UK-TE-18",
+    "CityName": "Tehri",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "UP-SA-19",
+    "CityName": "Samdhan",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "GJ-PA-20",
+    "CityName": "Pardi",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MP-RA-21",
+    "CityName": "Rahatgarh",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-PA-22",
+    "CityName": "Panagar",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-UT-23",
+    "CityName": "Uthiramerur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-TI-24",
+    "CityName": "Tirora",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AS-RA-25",
+    "CityName": "Rangia",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "UP-SA-26",
+    "CityName": "Sahjanwa",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MP-WA-27",
+    "CityName": "Wara Seoni",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "KA-MA-28",
+    "CityName": "Magadi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "RJ-RA-29",
+    "CityName": "Rajgarh (Alwar)",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "BR-RA-30",
+    "CityName": "Rafiganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MP-TA-31",
+    "CityName": "Tarana",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "UP-RA-32",
+    "CityName": "Rampur Maniharan",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-SH-33",
+    "CityName": "Sheoganj",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "PB-RA-34",
+    "CityName": "Raikot",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UK-PA-35",
+    "CityName": "Pauri",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "UP-SU-36",
+    "CityName": "Sumerpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KA-NA-37",
+    "CityName": "Navalgund",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "UP-SH-38",
+    "CityName": "Shahganj",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "BR-MA-39",
+    "CityName": "Marhaura",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UP-TU-40",
+    "CityName": "Tulsipur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "RJ-SA-41",
+    "CityName": "Sadri",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-TH-42",
+    "CityName": "Thiruthuraipoondi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KA-SH-43",
+    "CityName": "Shiggaon",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-PA-44",
+    "CityName": "Pallapatti",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "HR-MA-45",
+    "CityName": "Mahendragarh",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "MP-SA-46",
+    "CityName": "Sausar",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-PO-47",
+    "CityName": "Ponneri",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MH-MA-48",
+    "CityName": "Mahad",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "JH-LO-49",
+    "CityName": "Lohardaga",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "UP-TI-50",
+    "CityName": "Tirwaganj",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "AS-MA-51",
+    "CityName": "Margherita",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "HP-SU-52",
+    "CityName": "Sundarnagar",
+    "StateName": "Himachal Pradesh"
+  },
+  {
+    "StationID": "MP-RA-53",
+    "CityName": "Rajgarh",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "AS-MA-54",
+    "CityName": "Mangaldoi",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "AP-RE-55",
+    "CityName": "Renigunta",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "PB-LO-56",
+    "CityName": "Longowal",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "HR-RA-57",
+    "CityName": "Ratia",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "TN-LA-58",
+    "CityName": "Lalgudi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KA-SH-59",
+    "CityName": "Shrirangapattana",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MP-NI-60",
+    "CityName": "Niwari",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-NA-61",
+    "CityName": "Natham",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-UN-62",
+    "CityName": "Unnamalaikadai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-PU-63",
+    "CityName": "PurqUrban Agglomerationzi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-SH-64",
+    "CityName": "Shamsabad, Farrukhabad",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "BR-MI-65",
+    "CityName": "Mirganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "RJ-TO-66",
+    "CityName": "Todaraisingh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "UP-WA-67",
+    "CityName": "Warhapur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "AP-RA-68",
+    "CityName": "Rajam",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "PB-UR-69",
+    "CityName": "Urmar Tanda",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "MH-LO-70",
+    "CityName": "Lonar",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-PO-71",
+    "CityName": "Powayan",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-P.-72",
+    "CityName": "P.N.Patti",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "HP-PA-73",
+    "CityName": "Palampur",
+    "StateName": "Himachal Pradesh"
+  },
+  {
+    "StationID": "AP-SR-74",
+    "CityName": "Srisailam Project (Right Flank Colony) Township",
+    "StateName": "Andhra Pradesh"
+  },
+  {
+    "StationID": "KA-SI-75",
+    "CityName": "Sindagi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "UP-SA-76",
+    "CityName": "Sandi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KL-VA-77",
+    "CityName": "Vaikom",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "WB-MA-78",
+    "CityName": "Malda",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "TN-TH-79",
+    "CityName": "Tharangambadi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KA-SA-80",
+    "CityName": "Sakaleshapura",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "BR-LA-81",
+    "CityName": "Lalganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "OD-MA-82",
+    "CityName": "Malkangiri",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "GJ-RA-83",
+    "CityName": "Rapar",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MP-MA-84",
+    "CityName": "Mauganj",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "RJ-TO-85",
+    "CityName": "Todabhim",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "KA-SR-86",
+    "CityName": "Srinivaspur",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "BR-MU-87",
+    "CityName": "Murliganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "RJ-RE-88",
+    "CityName": "Reengus",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-SA-89",
+    "CityName": "Sawantwadi",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TN-TI-90",
+    "CityName": "Tittakudi",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MN-LI-91",
+    "CityName": "Lilong",
+    "StateName": "Manipur"
+  },
+  {
+    "StationID": "RJ-RA-92",
+    "CityName": "Rajaldesar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-PA-93",
+    "CityName": "Pathardi",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-AC-94",
+    "CityName": "Achhnera",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-PA-95",
+    "CityName": "Pacode",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-NA-96",
+    "CityName": "Naraura",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-NA-97",
+    "CityName": "Nakur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "KL-PA-98",
+    "CityName": "Palai",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "PB-MO-99",
+    "CityName": "Morinda, India",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "MP-MA-00",
+    "CityName": "Manasa",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-NA-01",
+    "CityName": "Nainpur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "UP-SA-02",
+    "CityName": "Sahaspur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-PA-03",
+    "CityName": "Pauni",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MP-PR-04",
+    "CityName": "Prithvipur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-RA-05",
+    "CityName": "Ramtek",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "AS-SI-06",
+    "CityName": "Silapathar",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "GJ-SO-07",
+    "CityName": "Songadh",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-SA-08",
+    "CityName": "Safipur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MP-SO-09",
+    "CityName": "Sohagpur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-MU-10",
+    "CityName": "Mul",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-SA-11",
+    "CityName": "Sadulshahar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "PB-PH-12",
+    "CityName": "Phillaur",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "RJ-SA-13",
+    "CityName": "Sambhar",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "RJ-PR-14",
+    "CityName": "Prantij",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "UK-NA-15",
+    "CityName": "Nagla",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "PB-PA-16",
+    "CityName": "Pattran",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "RJ-MO-17",
+    "CityName": "Mount Abu",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "UP-RE-18",
+    "CityName": "Reoti",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "JH-TE-19",
+    "CityName": "Tenu dam-cum-Kathhara",
+    "StateName": "Jharkhand"
+  },
+  {
+    "StationID": "WB-PA-20",
+    "CityName": "Panchla",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "UK-SI-21",
+    "CityName": "Sitarganj",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "AR-PA-22",
+    "CityName": "Pasighat",
+    "StateName": "Arunachal Pradesh"
+  },
+  {
+    "StationID": "BR-MO-23",
+    "CityName": "Motipur",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TN-O'-24",
+    "CityName": "O' Valley",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "WB-RA-25",
+    "CityName": "Raghunathpur",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "TN-SU-26",
+    "CityName": "Suriyampalayam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "PB-QA-27",
+    "CityName": "Qadian",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "OD-RA-28",
+    "CityName": "Rairangpur",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "DN-SI-29",
+    "CityName": "Silvassa",
+    "StateName": "Dadra and Nagar Haveli"
+  },
+  {
+    "StationID": "MP-NO-30",
+    "CityName": "Nowrozabad (Khodargama)",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "RJ-MA-31",
+    "CityName": "Mangrol",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-SO-32",
+    "CityName": "Soyagaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "PB-SU-33",
+    "CityName": "Sujanpur",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "BR-MA-34",
+    "CityName": "Manihari",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "UP-SI-35",
+    "CityName": "Sikanderpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-MA-36",
+    "CityName": "Mangalvedhe",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "RJ-PH-37",
+    "CityName": "Phulera",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "KA-RO-38",
+    "CityName": "Ron",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-SH-39",
+    "CityName": "Sholavandan",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-SA-40",
+    "CityName": "Saidpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MP-SH-41",
+    "CityName": "Shamgarh",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-TH-42",
+    "CityName": "Thammampatti",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "MP-MA-43",
+    "CityName": "Maharajpur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-MU-44",
+    "CityName": "Multai",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "PB-MU-45",
+    "CityName": "Mukerian",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "UP-SI-46",
+    "CityName": "Sirsi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UP-PU-47",
+    "CityName": "Purwa",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "BR-SH-48",
+    "CityName": "Sheohar",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "TN-NA-49",
+    "CityName": "Namagiripettai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "UP-PA-50",
+    "CityName": "Parasi",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "GJ-LA-51",
+    "CityName": "Lathi",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "UP-LA-52",
+    "CityName": "Lalganj",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-NA-53",
+    "CityName": "Narkhed",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "WB-MA-54",
+    "CityName": "Mathabhanga",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "MH-SH-55",
+    "CityName": "Shendurjana",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "TN-PE-56",
+    "CityName": "Peravurani",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "AS-MA-57",
+    "CityName": "Mariani",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "UP-PH-58",
+    "CityName": "Phulpur",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "HR-RA-59",
+    "CityName": "Rania",
+    "StateName": "Haryana"
+  },
+  {
+    "StationID": "MP-PA-60",
+    "CityName": "Pali",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MP-PA-61",
+    "CityName": "Pachore",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "TN-PA-62",
+    "CityName": "Parangipettai",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TN-PU-63",
+    "CityName": "Pudupattinam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KL-PA-64",
+    "CityName": "Panniyannur",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "BR-MA-65",
+    "CityName": "Maharajganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "MP-RA-66",
+    "CityName": "Rau",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "WB-MO-67",
+    "CityName": "Monoharpur",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "RJ-MA-68",
+    "CityName": "Mandawa",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "AS-MA-69",
+    "CityName": "Marigaon",
+    "StateName": "Assam"
+  },
+  {
+    "StationID": "TN-PA-70",
+    "CityName": "Pallikonda",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "RJ-PI-71",
+    "CityName": "Pindwara",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "UP-SH-72",
+    "CityName": "Shishgarh",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "MH-PA-73",
+    "CityName": "Patur",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "MN-MA-74",
+    "CityName": "Mayang Imphal",
+    "StateName": "Manipur"
+  },
+  {
+    "StationID": "MP-MH-75",
+    "CityName": "Mhowgaon",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "KL-GU-76",
+    "CityName": "Guruvayoor",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "MH-MH-77",
+    "CityName": "Mhaswad",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-SA-78",
+    "CityName": "Sahawar",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-SI-79",
+    "CityName": "Sivagiri",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "KA-MU-80",
+    "CityName": "Mundargi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "TN-PU-81",
+    "CityName": "Punjaipugalur",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TR-KA-82",
+    "CityName": "Kailasahar",
+    "StateName": "Tripura"
+  },
+  {
+    "StationID": "UP-SA-83",
+    "CityName": "Samthar",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "CG-SA-84",
+    "CityName": "Sakti",
+    "StateName": "Chhattisgarh"
+  },
+  {
+    "StationID": "KA-SA-85",
+    "CityName": "Sadalagi",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "BR-SI-86",
+    "CityName": "Silao",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "RJ-MA-87",
+    "CityName": "Mandalgarh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "MH-LO-88",
+    "CityName": "Loha",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "UP-PU-89",
+    "CityName": "Pukhrayan",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "TN-PA-90",
+    "CityName": "Padmanabhapuram",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "TR-BE-91",
+    "CityName": "Belonia",
+    "StateName": "Tripura"
+  },
+  {
+    "StationID": "MZ-SA-92",
+    "CityName": "Saiha",
+    "StateName": "Mizoram"
+  },
+  {
+    "StationID": "WB-SR-93",
+    "CityName": "Srirampore",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "PB-TA-94",
+    "CityName": "Talwara",
+    "StateName": "Punjab"
+  },
+  {
+    "StationID": "KL-PU-95",
+    "CityName": "Puthuppally",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "TR-KH-96",
+    "CityName": "Khowai",
+    "StateName": "Tripura"
+  },
+  {
+    "StationID": "MP-VI-97",
+    "CityName": "Vijaypur",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "RJ-TA-98",
+    "CityName": "Takhatgarh",
+    "StateName": "Rajasthan"
+  },
+  {
+    "StationID": "TN-TH-99",
+    "CityName": "Thirupuvanam",
+    "StateName": "Tamil Nadu"
+  },
+  {
+    "StationID": "WB-AD-00",
+    "CityName": "Adra",
+    "StateName": "West Bengal"
+  },
+  {
+    "StationID": "KA-PI-01",
+    "CityName": "Piriyapatna",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "UP-OB-02",
+    "CityName": "Obra",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "GJ-AD-03",
+    "CityName": "Adalaj",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "MH-NA-04",
+    "CityName": "Nandgaon",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-BA-05",
+    "CityName": "Barh",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "GJ-CH-06",
+    "CityName": "Chhapra",
+    "StateName": "Gujarat"
+  },
+  {
+    "StationID": "KL-PA-07",
+    "CityName": "Panamattom",
+    "StateName": "Kerala"
+  },
+  {
+    "StationID": "UP-NI-08",
+    "CityName": "Niwai",
+    "StateName": "Uttar Pradesh"
+  },
+  {
+    "StationID": "UK-BA-09",
+    "CityName": "Bageshwar",
+    "StateName": "Uttarakhand"
+  },
+  {
+    "StationID": "OD-TA-10",
+    "CityName": "Tarbha",
+    "StateName": "Odisha"
+  },
+  {
+    "StationID": "KA-AD-11",
+    "CityName": "Adyar",
+    "StateName": "Karnataka"
+  },
+  {
+    "StationID": "MP-NA-12",
+    "CityName": "Narsinghgarh",
+    "StateName": "Madhya Pradesh"
+  },
+  {
+    "StationID": "MH-WA-13",
+    "CityName": "Warud",
+    "StateName": "Maharashtra"
+  },
+  {
+    "StationID": "BR-AS-14",
+    "CityName": "Asarganj",
+    "StateName": "Bihar"
+  },
+  {
+    "StationID": "HR-SA-15",
+    "CityName": "Sarsod",
+    "StateName": "Haryana"
+  }
+]

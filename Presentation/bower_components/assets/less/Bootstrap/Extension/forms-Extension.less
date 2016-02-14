@@ -1,0 +1,75 @@
+// Reset appearance properties for textual inputs and textarea
+// Declare width for legacy (can't be on input[type=*] selectors or it's too specific)
+input,
+textarea,
+.uneditable-input {
+    width: 186px; // plus 12px padding and 2px border
+}
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        padding: 3px 0px 0px 0px \9; /* IE8-9 */
+    }
+
+select {
+    width: 200px; // default input width + 10px of padding that doesn't get applied
+}
+
+.control-group.underline {
+    border-bottom: 1px solid #eee;
+}
+
+.form-horizontal {
+    .control-label {
+        width: @horizontalComponentOffset - 10;
+    }
+}
+
+
+//For the New Search Form with 3 elements in it:
+.muiSearch {
+    margin: 10px 10px 0 0;
+    position: relative;
+
+    .search-query {
+        color: #777;
+        font-size: 12px;
+
+        input {
+            padding-right: 22px;
+            padding-left: 14px;
+            width: 170px;
+            border-radius: 14px 0 0 14px;
+        }
+    }
+
+    i.icon-remove-circle {
+        position: absolute;
+        top: 7px;
+        left: 188px;
+        font-size: 16px;
+        color: #BBB;
+        cursor: pointer;
+        z-index: 99;
+    }
+
+    .dropdown-toggle .caret {
+        border-top-color: #000 !important;
+        border-bottom-color: #000 !important;
+    }
+
+    .dropdown-menu {
+        left: 215px;
+        z-index: 9999;
+    }
+
+    .btnSearch {
+        padding-left: 8px;
+
+        > .icon-search {
+            display: inline-block;
+            font-size: 14px;
+            color: #999;
+        }
+    }
+}

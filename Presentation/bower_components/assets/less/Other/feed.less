@@ -1,0 +1,98 @@
+﻿.feed {
+    .feedcontent {
+        list-style: none;
+        margin: 0;
+        padding: 0 2px;
+
+        li {
+            margin-top: 20px;
+        }
+
+        .feedcontent {
+            margin-top: 20px;
+            padding-left: 66px;
+
+            li.postComment {
+                background-color: rgb(248, 248, 248);
+                padding: 10px 8px;
+            }
+
+            .postbox {
+                img {
+                    height: 35px;
+                    width: 30px;
+                }
+            }
+        }
+
+        .avatar {
+            float: left;
+
+            img {
+                border: 1px solid #FFFFFF;
+                box-shadow: 0 1px 3px #1E1E1E;
+                height: 56px;
+                width: 48px;
+            }
+        }
+
+        .block {
+            margin-left: 64px;
+            min-height: 56px;
+            border-top: 1px solid #F4F4F4;
+            border-right: 1px solid #F4F4F4;
+            border-left: 2px solid #0088cc;
+            position: relative;
+
+            .arrow-left {
+                border-bottom: 7px solid transparent;
+                border-right: 6px solid #0088CC;
+                border-top: 7px solid transparent;
+                content: "";
+                left: -8px;
+                position: absolute;
+                top: 16px;
+            }
+
+            .header {
+                display: block;
+                font-size: 12px;
+                font-weight: bold;
+                padding-left: 5px;
+                padding-top: 5px;
+            }
+
+            .body {
+                display: block;
+                font-size: 11px;
+                padding-left: 5px;
+                white-space: pre-line;
+                width: 90%;
+                word-wrap: break-word;
+            }
+
+            .footer {
+                display: block;
+                background-color: #FAFAFA;
+                border-top: 1px solid #F4F4F4;
+                border-bottom: 1px solid #F4F4F4;
+                padding: 8px;
+
+                .btn {
+                    margin-top: -3px;
+                }
+
+                .time {
+                    color: #999999;
+                    font-size: 11px;
+                }
+            }
+        }
+
+        button.showComment {
+            margin-left: 10px;
+            font-size: 9.35px;
+            margin-top: 3px;
+        }
+    }
+}

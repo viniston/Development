@@ -1,0 +1,335 @@
+/*#region FOOTABLE*/
+// Variables
+@charPlus: "\f067"; //"\e000";
+@charMinus: "\f068"; //"\e001";
+
+@charCircleFilledPlus: "\e002";
+@charCircleFilledMinus: "\e003";
+
+@charCirclePlus: "\e004";
+@charCircleMinus: "\e005";
+
+@charSquarePlus: "\e006";
+@charSquareMinus: "\e007";
+
+@charSquareFilledPlus: "\e008";
+@charSquareFilledMinus: "\e009";
+
+@charCircleFilledArrowUp: "\e00a";
+@charCircleFilledArrowDown: "\e00b";
+@charCircleFilledArrowLeft: "\e00c";
+@charCircleFilledArrowRight: "\e00d";
+
+@charArrowUp: "\f0de"; //"\e00e";
+@charArrowDown: "\f0dd"; //"\e00f";
+@charArrowLeft: "\e010";
+@charArrowRight: "\e011";
+
+@charArrowSmallUp: "\f0d8"; //"\e012";
+@charArrowSmallDown: "\f0d7"; //"\e013";
+@charArrowSmallLeft: "\f0d9"; //"\e014";
+@charArrowSmallRight: "\f0da"; //"\e015";
+
+@charArrowAltUp: "\e016";
+@charArrowAltDown: "\e017";
+@charArrowAltLeft: "\e018";
+@charArrowAltRight: "\e019";
+
+@charCircleArrowUp: "\e01a";
+@charCircleArrowDown: "\e01b";
+@charCircleArrowLeft: "\e01c";
+@charCircleArrowRight: "\e01d";
+
+@charArrowTinyUp: "\e01e";
+@charArrowTinyDown: "\e01f";
+@charArrowTinyLeft: "\e020";
+@charArrowTinyRight: "\e021";
+
+@charArrowSmallUpDown: "\f0dc"; //"\e022";
+
+@colorDarkGrey: #888;
+@colorStriping: #F7F7F7;
+
+@fontPath: "fonts/";
+@fontFootable: 'footable';
+
+.ToggleTheme (@charPlus, @charMinus) {
+    > tbody > tr {
+        &.footable-detail-show > td > span.footable-toggle:before {
+            content: @charMinus;
+        }
+
+        > td > span.footable-toggle:before {
+            content: @charPlus;
+        }
+    }
+}
+
+// Classes
+
+@font-face {
+    font-family: @fontFootable;
+    src: url('../font/fontawesome-webfont.eot');
+    src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#footable') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: @fontFootable;
+        src: url('../font/fontawesome-webfont.svg#footable') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+.footable-holder {
+    display: inline-block;
+    width: 100%;
+    overflow-x: auto;
+    position: relative;
+
+    .footable {
+        min-width: 100%;
+        width: auto !important;
+        max-width: initial;
+
+        th, td {
+            -ms-word-break: break-all;
+            word-break: break-all;
+            max-width: initial !important;
+            min-width: 125px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+            &:last-child {
+                width: 1px;
+                padding-left: 25px;
+                min-width: 0 !important;
+            }
+        }
+
+        &.fixColTable {
+            margin-left: 149px;
+            margin-bottom: 50px;
+
+            tr th:first-child,
+            tr td:first-child {
+                min-width: 150px !important;
+                width: 150px !important;
+                max-width: initial !important;
+                position: absolute;
+                left: 0;
+                top: auto;
+                height: inherit;
+                border-bottom: 0;
+            }
+
+            tfoot {
+                display: inline-block;
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+
+                td.colFooter {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.footable {
+    width: 100%;
+
+    th {
+        .th-text {
+            display: inline-block;
+            vertical-align: middle;
+            width: 95% !important;
+        }
+    }
+
+    td {
+        -ms-word-break: break-all;
+        word-break: break-all;
+    }
+
+    &.breakpoint {
+        > tbody > tr {
+            &.footable-detail-show > td {
+                border-bottom: none;
+
+                & > span.footable-toggle:before {
+                    content: @charMinus;
+                }
+            }
+
+            &:hover:not(.footable-row-detail) {
+                cursor: pointer;
+            }
+
+            > td.footable-cell-detail {
+                background: #eee;
+                border-top: none;
+            }
+
+            > td > span.footable-toggle {
+                display: inline-block;
+                font-family: @fontFootable;
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                -webkit-font-smoothing: antialiased;
+                padding-right: 5px;
+                font-size: 14px;
+                color: @colorDarkGrey;
+
+                &:before {
+                    content: @charPlus;
+                }
+            }
+        }
+
+        &.toggle-circle {
+            .ToggleTheme(@charCirclePlus, @charCircleMinus);
+        }
+
+        &.toggle-circle-filled {
+            .ToggleTheme(@charCircleFilledPlus, @charCircleFilledMinus);
+        }
+
+        &.toggle-square {
+            .ToggleTheme(@charSquarePlus, @charSquareMinus);
+        }
+
+        &.toggle-square-filled {
+            .ToggleTheme(@charSquareFilledPlus, @charSquareFilledMinus);
+        }
+
+        &.toggle-arrow {
+            .ToggleTheme(@charArrowRight, @charArrowDown);
+        }
+
+        &.toggle-arrow-small {
+            .ToggleTheme(@charArrowSmallRight, @charArrowSmallDown);
+        }
+
+        &.toggle-arrow-circle {
+            .ToggleTheme(@charCircleArrowRight, @charCircleArrowDown);
+        }
+
+        &.toggle-arrow-circle-filled {
+            .ToggleTheme(@charCircleFilledArrowRight, @charCircleFilledArrowDown);
+        }
+
+        &.toggle-arrow-tiny {
+            .ToggleTheme(@charArrowTinyRight, @charArrowTinyDown);
+        }
+
+        &.toggle-arrow-alt {
+            .ToggleTheme(@charArrowAltRight, @charArrowAltDown);
+        }
+
+        &.toggle-medium > tbody > tr {
+            > td > span.footable-toggle {
+                font-size: 18px;
+            }
+        }
+
+        &.toggle-large > tbody > tr {
+            > td > span.footable-toggle {
+                font-size: 24px;
+            }
+        }
+    }
+    /** SORTING **/
+    > thead > tr > th {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: -moz-none;
+        -ms-user-select: none;
+        user-select: none;
+
+        &.footable-sortable:hover {
+            cursor: pointer;
+        }
+
+        &.footable-sorted > span.footable-sort-indicator:before {
+            content: @charArrowSmallDown;
+        }
+
+        &.footable-sorted-desc > span.footable-sort-indicator:before {
+            content: @charArrowSmallUp;
+        }
+
+        > span.footable-sort-indicator {
+            display: inline-block;
+            font-family: @fontFootable;
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            -webkit-font-smoothing: antialiased;
+            padding-left: 5px;
+            overflow: initial;
+            width: auto;
+
+            &:before {
+                content: @charArrowSmallUpDown;
+            }
+        }
+    }
+    /** PAGINATION **/
+    > tfoot .pagination {
+        margin: 0;
+        font-size: 14px;
+
+        .footable-page-arrow {
+            font-size: 17px;
+        }
+    }
+
+    &.no-paging .hide-if-no-paging {
+        display: none;
+    }
+}
+
+.footable-row-detail-inner {
+    display: table;
+}
+
+.footable-row-detail-row {
+    display: table-row;
+    line-height: 1.5em;
+}
+
+.footable-row-detail-group {
+    display: block;
+    line-height: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footable-row-detail-name {
+    display: table-cell;
+    font-weight: bold;
+    padding-right: 0.5em;
+}
+
+.footable-row-detail-value {
+    display: table-cell;
+}
+
+.footable-odd {
+    background-color: @colorStriping;
+}
+/*#endregion*/

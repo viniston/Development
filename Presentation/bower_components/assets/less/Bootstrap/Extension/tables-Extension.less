@@ -1,0 +1,516 @@
+//
+// Tables
+// --------------------------------------------------
+
+
+// BASE TABLES
+// -----------------
+
+.table {
+    th.checkboxtd,
+    td.checkboxtd {
+        width: 25px;
+    }
+}
+
+//If a table will needed for representing values. Ex: Task Attachment
+.controls .table {
+    th, td {
+        padding: 5px 8px;
+    }
+}
+
+.table-list {
+    table-layout: fixed;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+    .table-list tbody + tbody {
+        border-top: 0 none;
+    }
+
+    .table-list td, .table-list tr:first-child {
+        border-bottom: 1px solid #EEEEEE;
+        border-top: 1px solid #EEEEEE;
+        /*max-width: 0;*/ /*Commented For IE*/
+        padding: 7px 5px 6px;
+        vertical-align: middle;
+    }
+
+        .table-list td[data-entitylevel="0"] {
+            background-color: #d9d9d9;
+        }
+
+    .table-list > thead > tr > th, .table-list > thead > tr:first-child {
+        background-color: #EEEEEE;
+        border-bottom: 1px solid #DDDDDD;
+        color: #555555;
+        font-weight: bold;
+        /*max-width: 0;*/ /*Commented For IE*/
+        padding: 6px 5px 5px;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+    }
+
+    .table-list > thead > tr th:last-child span, .table-list > tbody > tr td:last-child span {
+        /*width: 1px;
+        padding-left: 25px;*/
+        width: auto;
+    }
+
+.table-list-left2X > thead > tr th:last-child span, .table-list-left2X > tbody > tr td:last-child span {
+    /*width: 1px;
+    padding-left: 50px;*/
+    width: auto;
+}
+
+.table-list > thead > tr th:last-child, .table-list > tbody > tr td:last-child {
+    /*width: 1px;
+        padding-left: 25px;*/
+    width: 25px;
+}
+
+.table-list-left2X > thead > tr th:last-child, .table-list-left2X > tbody > tr td:last-child {
+    /*width: 1px;
+    padding-left: 50px;*/
+    width: 50px;
+}
+
+.table-list > thead > tr th:last-child > span, .table-list > tbody > tr td:last-child > span {
+    display: inline;
+}
+
+.table-list.OnScroll > thead > tr th:last-child {
+    padding-left: 45px;
+}
+
+
+.table-list > thead > tr > th > span, .table-list > tbody > tr > td > span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    min-height: 20px;
+}
+
+.table-list > thead > tr > th > a > span, .table-list > tbody > tr > td > a > span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    text-decoration: none;
+}
+
+.table-list > thead > tr > th > span > a {
+    cursor: pointer;
+}
+
+.table-list > tbody > tr > td > span > input {
+    margin-top: 0;
+}
+/*.table-list-left2X > tbody > tr > td > span > .LockUnLock, .table-list-left2X > thead > tr > th > span > .LockUnLock {
+    width: 38px;
+}*/ /*Commented For IE*/
+/*.table-list-left2X > tbody > tr > td > span > .LockUnLock > .icon-unlock, .table-list-left2X > thead > tr > th > span > .LockUnLock > .icon-unlock {
+    display: block;
+    float: left;
+    margin-right: 4px;
+    margin-top: 3px;
+    color: #00C957;
+}
+
+.table-list-left2X > tbody > tr > td > span > .LockUnLock > .icon-lock, .table-list-left2X > thead > tr > th > span > .LockUnLock > .icon-lock {
+    display: block;
+    float: left;
+    margin-right: 8px;
+    margin-top: 3px;
+    color: #EE0000;
+}
+
+.table-list-left2X > tbody > tr > td > span > .LockUnLock > .checkbox-custom, .table-list-left2X > thead > tr > th > span > .LockUnLock > .checkbox-custom {
+    float: left;
+}*/
+.table-list-left2X > tbody > tr > td > span > .icon-unlock, .table-list-left2X > thead > tr > th > span > .icon-unlock {
+    display: block;
+    float: left;
+    margin-right: 4px;
+    margin-top: 3px;
+    color: #00C957;
+}
+
+.table-list-left2X > tbody > tr > td > span > .icon-lock, .table-list-left2X > thead > tr > th > span > .icon-lock {
+    display: block;
+    float: left;
+    margin-right: 8px;
+    margin-top: 3px;
+    color: #EE0000;
+}
+
+.table-list-left2X > tbody > tr > td > span > .checkbox-custom, .table-list-left2X > thead > tr > th > span > .checkbox-custom {
+    float: left;
+}
+
+.table-list > tbody > tr:hover > td {
+    background-color: lighten(@linkColor,55%);
+    #gradient > .vertical(desaturate(lighten(@linkColor,58%),50%),desaturate(lighten(@linkColor,55%),50%));
+}
+
+.table-list > tbody > tr.over > td {
+    background-color: lighten(@linkColor,55%);
+    #gradient > .vertical(desaturate(lighten(@linkColor,58%),50%),desaturate(lighten(@linkColor,55%),50%));
+}
+//------------------------------------------------------------------------------
+.table-normal td,
+.table-normal-both td,
+.table-normal-left td,
+.table-normal-right td,
+.table-normal tr:first-child,
+.table-normal-both tr:first-child,
+.table-normal-left tr:first-child,
+.table-normal-right tr:first-child {
+    border-bottom: 1px solid #EEEEEE;
+    max-width: 0;
+    padding: 7px 5px 6px;
+    vertical-align: middle;
+}
+
+.table-normal > thead > tr > th,
+.table-normal-both > thead > tr > th,
+.table-normal-left > thead > tr > th,
+.table-normal-right > thead > tr > th,
+.table-normal > thead > tr:first-child,
+.table-normal-both > thead > tr:first-child,
+.table-normal-left > thead > tr:first-child,
+.table-normal-right > thead > tr:first-child {
+    border-bottom: 1px solid #DDDDDD;
+    color: #555555;
+    font-weight: bold;
+    max-width: 0;
+    padding: 6px 5px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+
+.table-normal-both > thead > tr th:last-child,
+.table-normal-right > thead > tr th:last-child {
+    width: 1px;
+    padding-left: 25px;
+}
+
+.table-normal-both-big-right > thead > tr th:last-child,
+.table-normal-right-big > thead > tr th:last-child {
+    width: 1px;
+    padding-left: 50px;
+}
+
+
+.table-normal-both > thead > tr th:first-child,
+.table-normal-left > thead > tr th:first-child {
+    padding-right: 25px;
+    width: 1px;
+}
+
+.table-normal-both-big-left > thead > tr th:first-child,
+.table-normal-left-big > thead > tr th:first-child {
+    padding-right: 50px;
+    width: 1px;
+}
+
+.table-normal-both > thead > tr > th:last-child > span,
+.table-normal-right > thead > tr > th:last-child > span {
+    display: inline;
+    margin-left: -10px;
+}
+
+.table-normal-both > thead > tr > th:first-child > span,
+.table-normal-left > thead > tr > th:first-child > span {
+    display: table-cell;
+}
+
+.table-normal-both.OnScroll > thead > tr th:last-child,
+.table-normal-left.OnScroll > thead > tr th:last-child,
+.table-normal-right.OnScroll > thead > tr th:last-child {
+    padding-left: 45px;
+}
+
+.table-normal-both > tbody > tr td:last-child,
+.table-normal-right > tbody > tr td:last-child {
+    width: 1px;
+    padding-left: 25px;
+}
+
+.table-normal-both-big-right > tbody > tr td:last-child,
+.table-normal-right-big > tbody > tr td:last-child {
+    width: 1px;
+    padding-left: 50px;
+}
+
+.table-normal-both > tbody > tr td:first-child,
+.table-normal-left > tbody > tr td:first-child {
+    width: 1px;
+    padding-right: 25px;
+}
+
+.table-normal-both-big-left > tbody > tr td:first-child,
+.table-normal-left-big > tbody > tr td:first-child {
+    width: 1px;
+    padding-right: 50px;
+}
+
+
+.table-normal-both > tbody > tr td:last-child > span,
+.table-normal-right > tbody > tr td:last-child > span {
+    display: inline;
+    margin-left: -10px;
+}
+
+.table-normal-both > tbody > tr td:first-child > span,
+.table-normal-left > tbody > tr td:first-child > span {
+    display: table-cell;
+}
+
+.table-normal > thead > tr > th > span,
+.table-normal-both > thead > tr > th > span,
+.table-normal-left > thead > tr > th > span,
+.table-normal-right > thead > tr > th > span,
+.table-normal > tbody > tr > td > span,
+.table-normal-both > tbody > tr > td > span,
+.table-normal-left > tbody > tr > td > span,
+.table-normal-right > tbody > tr > td > span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.table-normal > thead > tr > th > a > span,
+.table-normal-both > thead > tr > th > a > span,
+.table-normal-left > thead > tr > th > a > span,
+.table-normal-right > thead > tr > th > a > span,
+.table-normal > tbody > tr > td > a > span,
+.table-normal-both > tbody > tr > td > a > span,
+.table-normal-left > tbody > tr > td > a > span,
+.table-normal-right > tbody > tr > td > a > span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.table-normal > tbody > tr > td > span > input,
+.table-normal-both > tbody > tr > td > span > input,
+.table-normal-left > tbody > tr > td > span > input,
+.table-normal-right > tbody > tr > td > span > input {
+    margin-top: 0;
+}
+
+.table-normal > tbody > tr:hover > td,
+.table-normal-both > tbody > tr:hover > td,
+.table-normal-left > tbody > tr:hover > td,
+.table-normal-right > tbody > tr:hover > td {
+    background-color: lighten(@linkColor,55%);
+    #gradient > .vertical(desaturate(lighten(@linkColor,58%),50%),desaturate(lighten(@linkColor,55%),50%));
+}
+
+.table-normal > tbody > tr.over > td,
+.table-normal-both > tbody > tr.over > td,
+.table-normal-left > tbody > tr.over > td,
+.table-normal-right > tbody > tr.over > td {
+    background-color: lighten(@linkColor,55%);
+    #gradient > .vertical(desaturate(lighten(@linkColor,58%),50%),desaturate(lighten(@linkColor,55%),50%));
+}
+
+.table-normal,
+.table-normal-both,
+.table-normal-left,
+.table-normal-right {
+    margin-bottom: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+    .table-normal i.icon-remove,
+    .table-normal-both i.icon-remove,
+    .table-normal-left i.icon-remove,
+    .table-normal-right i.icon-remove {
+        color: #C83025;
+        cursor: pointer;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    .table-normal-both > tbody > tr > td > span > img.avatar,
+    .table-normal-left > tbody > tr > td > span > img.avatar {
+        width: 40px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 3px #1E1E1E;
+        padding: 2px;
+    }
+//------------------------------------------------------------------------------
+.table-fin {
+    font-size: 10px;
+    margin: 0;
+    table-layout: fixed;
+}
+
+    .table-fin > thead > tr > th {
+        color: #555555;
+        font-weight: bold;
+        max-width: 0;
+        padding: 2px;
+        vertical-align: middle;
+    }
+
+    .table-fin > thead > tr.main > th {
+        background-color: #999999;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .table-fin > thead > tr.sub > th {
+        background-color: #f0f0f0;
+        vertical-align: middle;
+    }
+
+        .table-fin > thead > tr.sub > th > span {
+            line-height: 10px;
+            white-space: pre-wrap;
+        }
+
+        .table-fin > thead > tr.sub > th:first-child {
+            text-align: left;
+        }
+
+            .table-fin > thead > tr.sub > th:first-child > span {
+                padding: 1px 2%;
+                width: 96%;
+            }
+
+    .table-fin > thead > tr:first-child > th {
+        padding: 0 5px;
+    }
+
+    .table-fin td, .table-fin th {
+        border-bottom: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        border-left: 1px solid #DDDDDD;
+        max-width: 0;
+        padding: 2px;
+        text-align: right;
+        vertical-align: middle;
+    }
+
+    .table-fin > tbody > tr > td:first-child, .table-fin > thead > tr > th:first-child {
+        border-left: 1px solid #DDDDDD;
+    }
+
+    .table-fin > tbody > tr > td:first-child {
+        text-align: left;
+        max-width: 10.1px;
+    }
+
+    .table-fin > thead > tr > th > span, .table-fin > tbody > tr > td > span, .table-fin > tfoot > tr > td > span {
+        border-radius: 2px 2px 2px 2px;
+        display: block;
+        overflow: hidden;
+        padding: 1px 4%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 92%;
+    }
+
+        .table-fin > tbody > tr > td > span > .icon- {
+            width: 8px !important;
+            display: inline-block !important;
+        }
+
+    .table-fin > tbody > tr.main > td {
+        background-color: #f5f5f5;
+        font-weight: bold;
+    }
+
+    .table-fin > tbody > tr > td > span i {
+        color: #777777;
+        font-size: 11px;
+        padding: 0 6px 0 0;
+    }
+
+        .table-fin > tbody > tr > td > span i[data-isexapnd] {
+            cursor: pointer;
+        }
+
+    .table-fin > tbody > tr > td:first-child > span {
+        /* padding: 1px 1% 1px 1%; */
+        width: 95%;
+    }
+
+    .table-fin > tbody > tr.main > td:first-child > span {
+        padding: 1px 2%;
+        width: 96%;
+    }
+
+    .table-fin > tbody > tr > td.editable > span {
+        color: #0088cc;
+        cursor: pointer;
+    }
+
+    .table-fin > tbody > tr > td.bad > span {
+        background-color: rgba(255,199,206,0.5);
+    }
+
+    .table-fin > tbody > tr > td.good > span {
+        background-color: rgba(171,227,255,0.5);
+    }
+
+    .table-fin > tbody > tr > td.neutral > span {
+        background-color: rgba(255,235,156,0.5);
+    }
+
+    .table-fin > tbody > tr > td {
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .table-fin .eicon {
+        font-size: 7px;
+        height: 16px !important;
+        min-width: 16px !important;
+        max-width: 19px;
+        line-height: 17px;
+    }
+
+    .table-fin tbody + tbody {
+        border-top: 0 none;
+    }
+
+.costcentredetail {
+    display: table-row;
+}
+
+.table-noborder {
+    border: none !important;
+}
+
+    .table-noborder tbody + tbody {
+        border: none !important;
+    }
+
+    .table-noborder th, .table-noborder td, .table-noborder tr {
+        border: none !important;
+        border-color: #FFF;
+    }
+
+
+        .table-noborder td span.name {
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+.ClearListStyle ul {
+    list-style: none;
+}

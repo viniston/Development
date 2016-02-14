@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Development.Dal.Common.Model.WindSpeedDao,Development.Dal" table="`WindSpeed`" lazy="true">
+    <id name="Id" column="ID">
+      <generator class="native">
+        <param name="property">Id</param>
+      </generator>
+    </id>
+    <property type="string" not-null="true"  name="State" column="`State`"/>
+    <property type="string"  name="City" column="`City`"/>
+    <property type="string" not-null="true" name="StationCode" column="`StationCode`"/>
+    <property type="DateTime" not-null="true" name="Date" column="`Date`"/>
+    <property type="int" not-null="true" name="PredictedSpeed" column="`PredictedSpeed`"/>
+    <property type="int" not-null="true" name="ActualSpeed" column="`ActualSpeed`"/>
+    <property type="int" not-null="true" name="Variance" column="`Variance`"/>
+  </class>
+</hibernate-mapping>
