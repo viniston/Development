@@ -109,6 +109,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Script1_DBCreation.sql" />
+    <Content Include="App_Data\Script2_WindMonitorTables_Data.sql" />
     <Content Include="bower_components\app\app.js" />
     <Content Include="bower_components\assets\css\bootstrap-datepicker.css" />
     <Content Include="bower_components\assets\css\bootstrap-editable.css" />
@@ -203,6 +205,7 @@
     <Content Include="bower_components\assets\js\UtilityFramework\bootstrap-multiselect.js" />
     <Content Include="bower_components\assets\js\UtilityFramework\jquery.qtip.js" />
     <Content Include="bower_components\assets\js\UtilityFramework\jquery.qtip.min.js" />
+    <Content Include="App_Data\WindMonitor_FinalCommit_Server2014.bak" />
     <None Include="cities.json" />
     <Content Include="GenerateCaptcha.aspx" />
     <Content Include="img\GALE_LOGO1.jpg" />
@@ -251,6 +254,7 @@
       <DependentUpon>select2.js</DependentUpon>
     </Content>
     <None Include="Properties\PublishProfiles\DevelopmentBase.pubxml" />
+    <None Include="Properties\PublishProfiles\GALETEST.pubxml" />
     <None Include="Properties\PublishProfiles\SecretCms.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -260,7 +264,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="App_Readme\" />
     <Folder Include="bower_components\assets\img\Temp\" />
     <Folder Include="css\" />
