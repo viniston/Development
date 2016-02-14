@@ -1,9 +1,9 @@
-Apache Lucene.Net README file
+This is DAL layer
 
-The package named "Lucene" is DEPRECATED.
-You probably received this package because you updated the references of a project that used it.
-Lucene.net has been updated, but we recommend you change your reference to the package named "Lucene.Net".
+Here i am keeping all the NHibernate mapping files and mapping classes
 
-Thank you for reading and sorry for the inconvenience.
+I am having dedicated CommonRepository also and it is inherriting from GenericRepository
 
-The Lucene.NET Community
+So in GenericRepository i am keeping all my Data access methods . So if i instantiate CommonRepository class i can avail both 
+
+class methods
