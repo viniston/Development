@@ -1,0 +1,1 @@
+Test build trigger - CI team city integration
