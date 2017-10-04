@@ -1,1 +1,3 @@
 Test build trigger - CI team city integration
+
+Test build trigger - Build status report to GitHub
