@@ -30,6 +30,10 @@ Thanks & Regards,
 
 Viniston A. (SSE)
 
+<a href="http://localhost:9091/viewType.html?buildTypeId=UnitTestDemo_CodeCheckin&guest=1">
+<img src="http://localhost:9091/app/rest/builds/buildType:(id:UnitTestDemo_CodeCheckin)/statusIcon"/>
+</a>
+
 
 
 
