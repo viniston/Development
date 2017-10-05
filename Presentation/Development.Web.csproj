@@ -255,7 +255,6 @@
     <None Include="Properties\PublishProfiles\DevelopmentBase.pubxml" />
     <None Include="Properties\PublishProfiles\GALETEST.pubxml" />
     <None Include="Properties\PublishProfiles\SecretCms.pubxml" />
-    <Content Include="Development.Web.nuspec" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
