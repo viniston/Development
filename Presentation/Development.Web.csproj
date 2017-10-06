@@ -60,15 +60,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
-      <HintPath>..\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.WebRequest" />
     <Reference Include="System.Web.Cors">
@@ -256,7 +248,6 @@
     <None Include="Properties\PublishProfiles\DevelopmentBase.pubxml" />
     <None Include="Properties\PublishProfiles\GALETEST.pubxml" />
     <None Include="Properties\PublishProfiles\SecretCms.pubxml" />
-    <Content Include="Development.Web.nuspec" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -269,16 +260,6 @@
     <Folder Include="bower_components\assets\img\Temp\" />
     <Folder Include="css\" />
     <Folder Include="fonts\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Core\Development.Core.csproj">
-      <Project>{aaff1466-8199-4be1-b774-9938fbb52bb7}</Project>
-      <Name>Development.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Dal\Development.Dal.csproj">
-      <Project>{1cb6b013-0927-449b-851e-1473d3660533}</Project>
-      <Name>Development.Dal</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

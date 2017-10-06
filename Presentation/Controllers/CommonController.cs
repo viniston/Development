@@ -1,6 +1,4 @@
-﻿using Development.Core;
-using Development.Core.Interface;
-using Development.Web.Controllers;
+﻿using Development.Web.Controllers;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -10,9 +8,7 @@ using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 using System.Web.Script.Serialization;
-using Development.Dal.Common;
 using System.IO;
-using Development.Dal.Common.Model;
 using Development.Web.Models;
 
 namespace Development.Web.Controllers
@@ -52,10 +48,8 @@ namespace Development.Web.Controllers
             result = new ServiceResponse();
             try
             {
-                Guid systemSession = DevelopmentManagerFactory.GetSystemSession();
-                IDevelopmentManager developmentManager = DevelopmentManagerFactory.GetDevelopmentManager(systemSession);
                 result.StatusCode = (int)HttpStatusCode.OK;
-                result.Response = developmentManager.CommonManager.SaveStations();
+                result.Response = "dummy result";
             }
             catch
             {
@@ -73,10 +67,8 @@ namespace Development.Web.Controllers
             result = new ServiceResponse();
             try
             {
-                Guid systemSession = DevelopmentManagerFactory.GetSystemSession();
-                IDevelopmentManager developmentManager = DevelopmentManagerFactory.GetDevelopmentManager(systemSession);
                 result.StatusCode = (int)HttpStatusCode.OK;
-                result.Response = developmentManager.CommonManager.GetStations();
+                result.Response = "dummy result";
             }
             catch
             {
@@ -94,10 +86,8 @@ namespace Development.Web.Controllers
             result = new ServiceResponse();
             try
             {
-                Guid systemSession = DevelopmentManagerFactory.GetSystemSession();
-                IDevelopmentManager developmentManager = DevelopmentManagerFactory.GetDevelopmentManager(systemSession);
                 result.StatusCode = (int)HttpStatusCode.OK;
-                result.Response = developmentManager.CommonManager.GetPredictedSpeed((string)jobj["StationId"]);
+                result.Response = "dummy result";
             }
             catch
             {
@@ -116,10 +106,8 @@ namespace Development.Web.Controllers
             result = new ServiceResponse();
             try
             {
-                Guid systemSession = DevelopmentManagerFactory.GetSystemSession();
-                IDevelopmentManager developmentManager = DevelopmentManagerFactory.GetDevelopmentManager(systemSession);
                 result.StatusCode = (int)HttpStatusCode.OK;
-                result.Response = developmentManager.CommonManager.GetHistoricalData(days);
+                result.Response = "dummy result";
             }
             catch
             {
@@ -140,23 +128,11 @@ namespace Development.Web.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    if (HttpRequestMessageExtensions.GetCookie(Request, "Wnreg") == model.Captcha) // validate the CAPTCHA
+                    if (Request.GetCookie("Wnreg") == model.Captcha) // validate the CAPTCHA
                     {
 
-                        WindSpeedDao speedDao = new WindSpeedDao
-                        {
-                            City = model.City,
-                            State = model.State,
-                            StationCode = model.StationCode,
-                            ActualSpeed = model.ActualSpeed,
-                            PredictedSpeed = model.PredictedSpeed,
-                            Date = model.ReadingDate,
-                            Variance = model.Variance
-                        };
-                        Guid systemSession = DevelopmentManagerFactory.GetSystemSession();
-                        IDevelopmentManager developmentManager = DevelopmentManagerFactory.GetDevelopmentManager(systemSession);
                         result.StatusCode = (int)HttpStatusCode.OK;
-                        result.Response = developmentManager.CommonManager.CreateNewReading(speedDao);
+                        result.Response = "dummy result";
 
                     }
                     else
