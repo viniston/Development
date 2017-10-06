@@ -164,18 +164,9 @@ $(document).ready(function () {
                 async: false,
                 success: function (e) {
                     AllStation = e.Response;
-                    var States = [];
-                    $.each(e.Response, function (index, value) {
-                        if ($.inArray(value.StateName, States) === -1) {
-                            States.push(value.StateName);
-                        }
-                    });
-                    for (var i = 0, state = {}; state = States[i++];) {
-                        $('#select2-state').append($("<option></option>").attr("value", state).text(state));
-                    }
                 },
                 error: function (e, o, t) {
-                    bootbox.alert(e + "\n" + o + "\n" + t)
+                    bootbox.alert(e + "\n" + o + "\n" + t);
                 }
             });
         },
