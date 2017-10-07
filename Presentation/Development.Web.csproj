@@ -205,6 +205,8 @@
     <Content Include="LogFile.txt" />
     <Content Include="Logs\1.txt" />
     <Content Include="Global.asax" />
+    <Content Include="maintenance.htm" />
+    <Content Include="ping.html" />
     <Content Include="Registration.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
